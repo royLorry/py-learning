@@ -1,0 +1,2576 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    
+    <meta name="keywords" content="深圳仓库出租,深圳库房出租,深圳厂房出租" />
+    <meta name="description" content="物联云仓提供深圳仓库出租、深圳厂房出租信息，每一条深圳库房出租信息均人为真伪验证，保证深圳仓库出租信息的真实可靠。" />
+
+    <title>深圳仓库出租|深圳库房出租|深圳厂房出租-物联云仓</title>
+    <!--[if lt IE 9]>
+        <script src="~/Scripts/lib/es5-shim.js"></script>
+        <script src="~/Scripts/lib/json3.js"></script>
+    <![endif]-->
+    
+    
+    <link href="/Scripts/artDialog/skins/default.css?v=636471368140000000" rel="stylesheet"/>
+<link href="/Content/fancybox/jquery.fancybox.css?v=636471368120000000" rel="stylesheet"/>
+<link href="/Content/themes/base/core.css?v=636471368120000000" rel="stylesheet"/>
+<link href="/Content/themes/base/datepicker.css?v=636471368120000000" rel="stylesheet"/>
+<link href="/Content/themes/base/theme.css?v=636471368120000000" rel="stylesheet"/>
+<link href="/Content/askOrder.css?v=636658661420000000" rel="stylesheet"/>
+
+    <link href="/Content/searchPage.css?v=636656913200000000" rel="stylesheet"/>
+<link href="/Content/dorpdown.css?v=636656913200000000" rel="stylesheet"/>
+
+    <script>window.noGlobalValidInit = true;</script>
+
+    <script src="/Scripts/jquery-1.9.1.min.js?v=636471368140000000"></script>
+
+    
+    <script src="/Scripts/cookieStore.js"></script>
+    <script src="/Scripts/rptOrder.js"></script>
+    <script src="/Scripts/jquery-ui-1.11.4.min.js?v=636471368140000000"></script>
+<script src="/Scripts/fancybox/jquery.mousewheel.pack.js?v=636471368140000000"></script>
+<script src="/Scripts/fancybox/jquery.fancybox.pack.js?v=636471368140000000"></script>
+
+    <script src="/Scripts/artDialog/jquery.artDialog.js"></script>
+
+    <script src="/Scripts/jquery.validate.js?v=636471368140000000"></script>
+<script src="/Scripts/jquery.validate.unobtrusive.js?v=636471368140000000"></script>
+<script src="/Scripts/modernizr-2.6.2.js?v=636471368140000000"></script>
+<script src="/Scripts/jquery.district.js?v=636471368140000000"></script>
+
+    <script src="/Scripts/vue.min.js"></script>
+    <script>
+        Vue.config.devtools = true;
+        window.appConfig = {smsInterval:60};
+        window.urlsettings = {
+            search:'/repository/searchseo',
+            baseUrl:'/repository/searchnone'
+        };
+        window.searchDefault = {
+            order: '-6',
+            distance: '10000',
+            filterPrefix:''
+        }
+        window.rptSearch = window.rptSearch || {};
+        window.WarehouseOrderState=null;
+    </script>
+
+    <script>
+        window.districtUrl = '/wapi/District/';
+        (function () {
+            var c = document.createElement("script"), s = document.getElementsByTagName("script")[0];
+            c.src = "//wechat-test.50yc.com/Repository/cckf?webid=118905";
+            s.parentNode.insertBefore(c, s);
+        })();
+    </script>
+   
+    <script>
+        var swidth = window.screen.width, centerWidth;
+        if (swidth > 1366) {
+            centerWidth = 1366;
+        } else if (swidth > 1210) {
+            centerWidth = 1210
+        } else {
+            centerWidth = 990
+        }
+        document.write('<style>.center{width:' + centerWidth + 'px;}</style>')
+    </script>
+</head>
+<body>
+    <div class="detail-body">
+
+
+
+<link href="/content/reset.css?v=636471368120000000" rel="stylesheet"/>
+<link href="/Content/dorpdown.css?v=636656913200000000" rel="stylesheet"/>
+<link href="/content/global.css?v=636689140380000000" rel="stylesheet"/>
+<link href="/content/public.css?v=636682811220000000" rel="stylesheet"/>
+<link href="/content/default.css?v=636471368120000000" rel="stylesheet"/>
+<link href="/Content/popup.css?v=636637262460000000" rel="stylesheet"/>
+<link href="/Content/newIndex2.css?v=636689140380000000" rel="stylesheet"/>
+<link href="/Content/fancybox/jquery.fancybox.css?v=636471368120000000" rel="stylesheet"/>
+
+
+
+<div class="top">
+    <div class="web-width">
+        <ul class="fl">
+                <li>
+                    <div class="nologin">
+                        <b>您好，欢迎来到物联云仓</b>
+                        <a href="https://passport.50yc.com/login" rel="nofollow">登录</a>
+                        <a href="https://passport.50yc.com/register" rel="nofollow">注册</a>
+                    </div>
+                </li>
+
+            <li class="have">
+                <span>掌上云仓<i class="icon icon-top3"></i></span>
+                <div class="code-dailog top-dailog">
+                    
+                    <p>
+                        <b>关注“物联云仓”</b>
+                        <img src="/img/qr_142.png">
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <ul class="fr">
+            <li><a href="//www.50yc.com/">物联云仓首页</a></li>
+            <li><a href="//www.50yc.com/member">会员中心</a></li>
+            <li><a href="/member/order/warehouse">我的预约</a></li>
+            <li class="have">
+                <span>帮助中心</span>
+                <div class="help-dailog top-dailog">
+                            <p>
+                                    <a href="//www.50yc.com/help/1">新手帮助</a>
+                            </p>
+                            <p>
+                                    <a href="//www.50yc.com/help/16">仓库资源方</a>
+                            </p>
+                            <p>
+                                    <a href="//www.50yc.com/help/33">仓库需求方</a>
+                            </p>
+                            <p>
+                                    <a href="//www.50yc.com/help/34">仓配一体</a>
+                            </p>
+                            <p>
+                                    <a href="//www.50yc.com/help/21">常见问题</a>
+                            </p>
+                    </div>
+                </li>
+                <li><a onclick="javascript: CcChat.open();">联系客服</a></li>
+            </ul>
+        </div>
+    </div>
+
+ <div class="scroll-hover">
+    <!--滚动有效-->
+     <div class="sh-bg">
+         <div class="sh-img">
+             <a href="/"><img alt="物联云仓仓库租赁信息网" src="/img/logo.png"></a>
+         </div>
+         <div class="search-area">
+
+             <form method="get" id="frmSearch" name="frmSearch">
+                 <input id="q" name="q" type="hidden" />
+                 <ul class="sa-select">
+                     <li><span id="curslectspan">仓库</span><i><em></em><s></s></i></li>
+                     <li class="sa-option">仓库</li>
+                     <li class="sa-option">需求</li>
+                 </ul>
+                 <input id="key1" type="text" class="Jssearch" maxlength="100" placeholder="请输入仓库信息关键词" />
+                 <a href="javascript:void(0);" class="btn-blue" onclick="inputSearch('#key1')"><s class="icon-new in-top1"></s></a>
+             </form>
+         </div>
+
+         <div class="cloud-search">
+             <s class="icon-new in-top2"></s><a href="//www.50yc.com/warehouse/map"><span>地图找库</span></a>
+         </div>
+     </div>
+</div>
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.scroll-hover').addClass('show');
+            } else {
+                $('.scroll-hover').removeClass('show');
+            }
+        });
+    function inputSearch(obj) {
+        var actions = {
+            '仓库': '//www.50yc.com/warehouse',
+            '需求': '//www.50yc.com/bid/list'
+        };
+        var $obj = $(obj);
+        $('#q').val(encodeURI($obj.val()));
+        var curSelect = $('#curslectspan').text().trim();
+        document.frmSearch.action = actions[curSelect];
+        document.frmSearch.submit();
+    }
+    $('.Jssearch').keydown(function (e) {
+        if (e.keyCode === 13) {
+            inputSearch(this);
+        }
+        e.stopPropagation();
+    });
+    var placeH = '';
+    $('.search-con').on('focus', 'input', function () {
+        placeH = $(this).attr('placeholder');
+        $(this).removeAttr('placeholder');
+    });
+    $('.search-con').on('blur', 'input', function () {
+        $(this).attr('placeholder', placeH);
+    });
+    $('.sa-select').find('li').on('click', function () {
+        if ($(this).index() == 0) {
+            $(this).parent('ul').find('.sa-option').show();
+        }
+    })
+    $('.sa-option').on('click', function () {
+        $(this).parent('ul').find('li').first().find('span').text($(this).text());
+        var curTxt = $(this).text().trim();
+        var placeh = '请输入' + curTxt + '信息关键词';
+        $('#key1').attr('placeholder', placeh);
+        $('.sa-select').find('.sa-option').hide();
+    })
+    $(document).on('click', function (e) {
+        if ($(e.target).parents('.sa-select').length == 0) {
+            $('.sa-select').find('.sa-option').hide();
+        }
+    });
+    </script>
+
+    <script>
+        $(function () {
+            setSelectProvinceId();
+            $(".dorpdown-layer").css("display", "");
+            $('#key').on('keydown', function (e) {
+                if (e.keyCode === 13) {
+                    $('#hm-d').val($('a.selected').first().attr('data-id'));
+                    $('#q').val(encodeURI($('#key').val()));
+                    document.frmSearch.submit();
+                }
+            });
+        });
+
+        function setSelectProvinceId() {
+            var selectProvince = $("a.selected").first();
+            $("#provinceCode").val(selectProvince.attr("data-id"));
+        }
+
+        function provinceSelect(obj) {
+            obj = $(obj);
+            var id = obj.attr('data-id');
+            var pinyin = obj.attr('data-pinyin');
+            var name = obj.html();
+            var province = $("#selected-province");
+            province.attr("data-id", id);
+            province.attr("title", name);
+            province.html(name);
+            var selectProvince = $("a.selected").first();
+            selectProvince.attr("class", "");
+            $(obj).attr("class", "selected");
+            var provinceCode = $("#provincecode");
+            var provinceName = $("#provincename");
+            var provincePinyin = $('#provincepinyin');
+            if (provinceCode.val() !== id) {
+                provinceCode.val(id);
+                provinceName.val(name);
+                provincePinyin.val(pinyin);
+                var url = window.location.href;
+                var path = window.location.pathname;
+                var path = window.location.pathname;
+                var m1 = path.match(/^\/(warehouse|bid)\/(\w+)/);
+                if (m1) {
+                    if (!url.match(/bid\/info/) && !url.match(/warehouse\/(\w+)\/detail/) && !url.match(/member\/bid\//)) {
+                        var rgx = new RegExp(m1[2] + "(.+)?");
+                        url = url.replace(rgx, pinyin);
+                    }
+                }
+                if (path && (path === '/' || /\/home\/index.*/i.test(path))) url = '';
+                else url = url.replace(/[&\?]to[^&]+/i, '');
+                $("#to").val(url);
+                $("#frmProvince").submit();
+            }
+        }
+
+    </script>
+    <script src="/Scripts/headercommon.js?v=1"></script>
+    <script src="/Scripts/ccchat.js"></script>
+
+        <div class="nav-box">
+    <div class="web-width">
+        <div class="logo fl"><a href="/"><img src="/img/logo.png"></a></div>
+        <div class="nb">
+            <div class="area-box fr">在线仓储面积：<b>199,263,991</b>㎡ &nbsp;&nbsp; 可租<b>30,725,432</b>㎡</div>
+            <ul class="nav fr">
+
+                <li><span><a class="" href="//www.50yc.com/">首页</a></span></li>
+                <li><span><a class="current" href="//www.50yc.com/warehouse">仓库搜索</a></span></li>
+                <li><span><a class="" href="//www.50yc.com/bid/list">仓储需求</a></span></li>
+
+                <li>
+                    <span><a class="" href="//www.50yc.com/waas/list">仓配服务</a></span>
+                </li>
+                
+                
+                <li>
+                    <span><a class="" href="https://mall.50yc.com" target="_blank">物资商城</a></span>
+                </li>
+                <li><span><a class="" href="//www.50yc.com/information">云仓观察</a></span></li>
+                
+                <li>
+                    <span><a href="http://www.50.link/" target="_blank">物联传感云</a></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="search-body">
+    <div class="search-page-box">
+        <div id="bread">
+            
+
+<p class="borad">
+<a href="/">首页</a>&gt;<a class="Js_bread" href="/warehouse">仓库搜索</a>&gt;<a class="Js_bread" href="/guangdong">广东</a>&gt;<a class="Js_bread" href="/shenzhen/">深圳市</a>
+
+</p>
+
+        </div>
+<form action="/warehouse/list" id="frmFilter" method="get">            <input id="a" type="hidden" name="a" />
+            <input id="d" type="hidden" name="d" value="440300" />
+            <input id="order" type="hidden" name="o" value="-1" />
+            <input id="page" type="hidden" name="p" value="1" />
+            <input id="q" type="hidden" name="q" />
+            <input id="region" type="hidden" name="region" value="shenzhen" />
+            <div id="starFilter">
+                
+
+<!--星级搜索-->
+<div class="star-search" id="star-search">
+    <div class="star-search-box search-filter">
+        <input type="hidden" id="curloc" value="深圳市" />
+        <input type="hidden" id="aq" />
+        <input type="hidden" id="l" value="10000" />
+        <div class="default-show">
+            <dl class="first-list">
+                <dt>仓库位置：</dt>
+                <dd class="show">
+                    <div class="first-more">
+                        <a href="/warehouse/ov1" class="Js_district_dx " data-district="000000" data-region="list">不限</a>
+                            <a href="/sichuan/ov1" class="Js_district_dx " data-district="510000" data-region="sichuan">四川</a>
+                            <a href="/guangdong/ov1" class="Js_district_dx bx" data-district="440000" data-region="guangdong">广东</a>
+                            <a href="/jiangsu/ov1" class="Js_district_dx " data-district="320000" data-region="jiangsu">江苏</a>
+                            <a href="/hubei/ov1" class="Js_district_dx " data-district="420000" data-region="hubei">湖北</a>
+                            <a href="/shandong/ov1" class="Js_district_dx " data-district="370000" data-region="shandong">山东</a>
+                            <a href="/shanghai/ov1" class="Js_district_dx " data-district="310000" data-region="shanghai">上海</a>
+                            <a href="/zhejiang/ov1" class="Js_district_dx " data-district="330000" data-region="zhejiang">浙江</a>
+                            <a href="/chongqing/ov1" class="Js_district_dx " data-district="500000" data-region="chongqing">重庆</a>
+                            <a href="/henan/ov1" class="Js_district_dx " data-district="410000" data-region="henan">河南</a>
+                            <a href="/tianjin/ov1" class="Js_district_dx " data-district="120000" data-region="tianjin">天津</a>
+                            <a href="/liaoning/ov1" class="Js_district_dx " data-district="210000" data-region="liaoning">辽宁</a>
+                            <a href="/sx/ov1" class="Js_district_dx " data-district="610000" data-region="sx">陕西</a>
+                            <a href="/beijing/ov1" class="Js_district_dx " data-district="110000" data-region="beijing">北京</a>
+                            <a href="/hunan/ov1" class="Js_district_dx " data-district="430000" data-region="hunan">湖南</a>
+                            <a href="/hebei/ov1" class="Js_district_dx " data-district="130000" data-region="hebei">河北</a>
+                            <a href="/yunnan/ov1" class="Js_district_dx " data-district="530000" data-region="yunnan">云南</a>
+                            <a href="/guizhou/ov1" class="Js_district_dx " data-district="520000" data-region="guizhou">贵州</a>
+                            <a href="/anhui/ov1" class="Js_district_dx " data-district="340000" data-region="anhui">安徽</a>
+                            <a href="/shanxi/ov1" class="Js_district_dx " data-district="140000" data-region="shanxi">山西</a>
+                            <a href="/fujian/ov1" class="Js_district_dx " data-district="350000" data-region="fujian">福建</a>
+                            <a href="/jiangxi/ov1" class="Js_district_dx " data-district="360000" data-region="jiangxi">江西</a>
+                            <a href="/heilongjiang/ov1" class="Js_district_dx " data-district="230000" data-region="heilongjiang">黑龙江</a>
+                            <a href="/jilin/ov1" class="Js_district_dx " data-district="220000" data-region="jilin">吉林</a>
+                            <a href="/gansu/ov1" class="Js_district_dx " data-district="620000" data-region="gansu">甘肃</a>
+                            <a href="/xinjiang/ov1" class="Js_district_dx " data-district="650000" data-region="xinjiang">新疆</a>
+                            <a href="/neimenggu/ov1" class="Js_district_dx " data-district="150000" data-region="neimenggu">内蒙古</a>
+                            <a href="/guangxi/ov1" class="Js_district_dx " data-district="450000" data-region="guangxi">广西</a>
+                            <a href="/ningxia/ov1" class="Js_district_dx " data-district="640000" data-region="ningxia">宁夏</a>
+                            <a href="/qinghai/ov1" class="Js_district_dx " data-district="630000" data-region="qinghai">青海</a>
+                            <a href="/hainan/ov1" class="Js_district_dx " data-district="460000" data-region="hainan">海南</a>
+                            <a href="/xizang/ov1" class="Js_district_dx " data-district="540000" data-region="xizang">西藏</a>
+                            <a href="/xianggang/ov1" class="Js_district_dx " data-district="810000" data-region="xianggang">香港</a>
+                        
+
+                    </div>
+
+                        <div class="s-more" style="display: block">
+                            <a href="/guangdong/ov1" class="Js_district_dx " data-district="440000" data-region="guangdong">不限</a>
+
+                                <a href="/guangzhou/ov1" class="Js_district_dx " data-district="440100" data-region="guangzhou">广州市</a>
+                                <a href="/foshan/ov1" class="Js_district_dx " data-district="440600" data-region="foshan">佛山市</a>
+                                <a href="/dongguan/ov1" class="Js_district_dx " data-district="441900" data-region="dongguan">东莞市</a>
+                                <a href="/shenzhen/ov1" class="Js_district_dx bx" data-district="440300" data-region="shenzhen">深圳市</a>
+                                <a href="/huizhou/ov1" class="Js_district_dx " data-district="441300" data-region="huizhou">惠州市</a>
+                                <a href="/zhongshan/ov1" class="Js_district_dx " data-district="442000" data-region="zhongshan">中山市</a>
+                                <a href="/jiangmen/ov1" class="Js_district_dx " data-district="440700" data-region="jiangmen">江门市</a>
+                                <a href="/zhaoqing/ov1" class="Js_district_dx " data-district="441200" data-region="zhaoqing">肇庆市</a>
+                                <a href="/zhuhai/ov1" class="Js_district_dx " data-district="440400" data-region="zhuhai">珠海市</a>
+                                <a href="/shantou/ov1" class="Js_district_dx " data-district="440500" data-region="shantou">汕头市</a>
+                                <a href="/yangjiang/ov1" class="Js_district_dx " data-district="441700" data-region="yangjiang">阳江市</a>
+                                <a href="/zhanjiang/ov1" class="Js_district_dx " data-district="440800" data-region="zhanjiang">湛江市</a>
+                                <a href="/maoming/ov1" class="Js_district_dx " data-district="440900" data-region="maoming">茂名市</a>
+                        </div>
+
+
+
+                        <div class="s-more" style="display: block">
+                            <a href="/shenzhen/ov1" class="Js_district_dx bx" data-district="440300" data-region="shenzhen">不限</a>
+                                <a href="/shenzhen_longgang/ov1" class="Js_district_dx " data-district="440307" data-region="shenzhen_longgang">龙岗区</a>
+                                <a href="/shenzhen_baoan/ov1" class="Js_district_dx " data-district="440306" data-region="shenzhen_baoan">宝安区</a>
+                                <a href="/shenzhen_yantian/ov1" class="Js_district_dx " data-district="440308" data-region="shenzhen_yantian">盐田区</a>
+                                <a href="/shenzhen_nashan/ov1" class="Js_district_dx " data-district="440305" data-region="shenzhen_nashan">南山区</a>
+                                <a href="/shenzhen_futian/ov1" class="Js_district_dx " data-district="440304" data-region="shenzhen_futian">福田区</a>
+                                <a href="/shenzhen_longhua/ov1" class="Js_district_dx " data-district="440309" data-region="shenzhen_longhua">龙华区</a>
+                        </div>
+
+                    <a class="show-more Js-s-place up" href="javascript:void(0);"> <span>收起</span><s></s></a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>位置搜索：</dt>
+                <dd id="regionSuggest">
+                    <div class="wh-place">
+                        <input type="hidden" name="pos" class="input--200" />
+                        <input type="text" name="aq" placeholder="请输入地标/街道" v-model="inputQuery" v-on:focus="onFocus" v-on:blur="onBlur" v-on:keyup="onKeyup" class="input--200" /><select name="l" v-model="dist">
+                            <option v-for="d in distlist" v-text="d.name" :value="d.val"></option>
+                        </select>
+                        <div class="wh-place-search Js-search-list" style="display: none;" v-show="showSuggest">
+                            <p v-for="(item,i) in list" v-on:click="select(item)" v-if="!item.error" :class="{selected:i==selectIndex}">{{item.city}}{{item.district}}:{{item.name}}</p>
+                            <p v-for="item in list" v-on:click="select(item)" v-if="item.error" v-html="item.error"></p>
+                        </div>
+                        <div id='regionSuggest-error-template' style="display: none">
+                            <div class="regionSuggest-error">
+                                <p>
+                                    在 <em>{region}</em> 范围内未找到相关地点。
+                                </p>
+                                <p>您还可以：</p>
+                                <p>-  检查输入是否正确或输入其他地标</p>
+                                <p>-<a onclick="CcChat.open()" href="#">联系客服</a>添加该地标</p>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="button" value="搜索" v-on:click="btnClick" :disabled="!pos || !inputQuery" class="fl btn-wh-place" />
+                </dd>
+            </dl>
+            <dl>
+                <dt>可租面积：</dt>
+                <dd>
+                    <div class="more">
+
+
+                        <a href="/shenzhen/ov1" class="bx Js_bx Js_attrval" data-attr="_._._._._._._._._">不限</a>
+                            <a href="/shenzhen/azxzx66535xzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-10" data-val="66535" data-attr="_._.66535._._._._._._">1-1000平方米</a>
+                            <a href="/shenzhen/azxzx268505093xzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-10" data-val="268505093" data-attr="_._.268505093._._._._._._">1000-5000平方米</a>
+                            <a href="/shenzhen/azxzx268771329xzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-10" data-val="268771329" data-attr="_._.268771329._._._._._._">5000-1万平方米</a>
+                            <a href="/shenzhen/azxzx536944645xzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-10" data-val="536944645" data-attr="_._.536944645._._._._._._">1万-5万平方米</a>
+                            <a href="/shenzhen/azxzx537198592xzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-10" data-val="537198592" data-attr="_._.537198592._._._._._._">5万平方米及以上</a>
+                                                    <div class="user-area">
+                                <input type="text" class="input-attr  input--10" v-model="inputAttrVals['i-10s']" name="i-10s" data-attr="_._.*._._._._._._" /><i>-</i>
+                                <input type="text" class="input-attr  input--10" v-model="inputAttrVals['i-10e']" name="i-10e" data-attr="_._.*._._._._._._" /><i>平方米</i>
+                                <a href="#" class="btn-star-seach Js_InputOk" v-show="inputAttrVals['i-10s']||inputAttrVals['i-10e']"
+                                   data-attr="_._.*._._._._._._">确定</a>
+                            </div>
+                    </div>
+                </dd>
+            </dl>
+        </div>
+        <div id="filters" class="hide-search Js-show">
+
+                <div class="filter-list Js_filterList Js_attr" data-attr="-5">
+                    <div class="clearfix">
+                        <dl class="clearfix">
+                            <dt>仓库类型：</dt>
+                            <dd class="filter-met-list clearfix">
+                                <div class="more">
+
+                                    <a href="/shenzhen/ov1" class="bx Js_bx Js_attrval" data-attr="_._._._._._._._._" data-seoname=t data-seo=>不限</a>
+                                        <a href="/shenzhen/a1xzxzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-5" data-val="1" data-attr="1._._._._._._._._" data-seoname=t data-seo=>普通仓</a>
+                                        <a href="/shenzhen/a2xzxzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-5" data-val="2" data-attr="2._._._._._._._._" data-seoname=t data-seo=>恒温库</a>
+                                        <a href="/shenzhen/a3xzxzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-5" data-val="3" data-attr="3._._._._._._._._" data-seoname=t data-seo=>冷藏库</a>
+                                        <a href="/shenzhen/a4xzxzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-5" data-val="4" data-attr="4._._._._._._._._" data-seoname=t data-seo=>冷冻库</a>
+                                        <a href="/shenzhen/a12xzxzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-5" data-val="12" data-attr="12._._._._._._._._" data-seoname=t data-seo=>气调库</a>
+                                        <a href="/shenzhen/a5xzxzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-5" data-val="5" data-attr="5._._._._._._._._" data-seoname=t data-seo=>暖库</a>
+                                        <a href="/shenzhen/a8xzxzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-5" data-val="8" data-attr="8._._._._._._._._" data-seoname=t data-seo=>露天堆场</a>
+                                        <a href="/shenzhen/a9xzxzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-5" data-val="9" data-attr="9._._._._._._._._" data-seoname=t data-seo=>有棚堆场</a>
+                                        <a href="/shenzhen/a10xzxzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-5" data-val="10" data-attr="10._._._._._._._._" data-seoname=t data-seo=>危险品库</a>
+                                        <a href="/shenzhen/a11xzxzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-5" data-val="11" data-attr="11._._._._._._._._" data-seoname=t data-seo=>其他</a>
+
+                                </div>
+                            </dd>
+                        </dl>
+                            <a class="f-dx Js_dx" href="#" style="display: block;">多选</a>
+
+                    </div>
+                        <p class="fm-btn JsBtn" style="display: none;">
+                            <a class="Js_filterOk btn-star-seach" href="#" data-attr="*._._._._._._._._" data-seoname=t data-seo=>确定</a>
+                            <a class="Js_filterCancle" href="#">取消</a>
+                        </p>
+
+                </div>
+                <div class="filter-list Js_filterList Js_attr" data-attr="-29">
+                    <div class="clearfix">
+                        <dl class="clearfix">
+                            <dt>仓库模式：</dt>
+                            <dd class="filter-met-list clearfix">
+                                <div class="more">
+
+                                    <a href="/shenzhen/ov1" class="bx Js_bx Js_attrval" data-attr="_._._._._._._._._" data-seoname=m data-seo=>不限</a>
+                                        <a href="/shenzhen/azx1xzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-29" data-val="1" data-attr="_.1._._._._._._._" data-seoname=m data-seo=>平库</a>
+                                        <a href="/shenzhen/azx6xzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-29" data-val="6" data-attr="_.6._._._._._._._" data-seoname=m data-seo=>高台库</a>
+                                        <a href="/shenzhen/azx7xzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-29" data-val="7" data-attr="_.7._._._._._._._" data-seoname=m data-seo=>坡道库</a>
+                                        <a href="/shenzhen/azx2xzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-29" data-val="2" data-attr="_.2._._._._._._._" data-seoname=m data-seo=>楼库</a>
+                                        <a href="/shenzhen/azx4xzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-29" data-val="4" data-attr="_.4._._._._._._._" data-seoname=m data-seo=>立体库</a>
+                                        <a href="/shenzhen/azx5xzxzxzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-29" data-val="5" data-attr="_.5._._._._._._._" data-seoname=m data-seo=>其他</a>
+
+                                </div>
+                            </dd>
+                        </dl>
+                            <a class="f-dx Js_dx" href="#" style="display: block;">多选</a>
+
+                    </div>
+                        <p class="fm-btn JsBtn" style="display: none;">
+                            <a class="Js_filterOk btn-star-seach" href="#" data-attr="_.*._._._._._._._" data-seoname=m data-seo=>确定</a>
+                            <a class="Js_filterCancle" href="#">取消</a>
+                        </p>
+
+                </div>
+                <div class="filter-list Js_filterList Js_attr" data-attr="-299">
+                    <div class="clearfix">
+                        <dl class="clearfix">
+                            <dt>是否在建：</dt>
+                            <dd class="filter-met-list clearfix">
+                                <div class="more">
+
+                                    <a href="/shenzhen/ov1" class="bx Js_bx Js_attrval" data-attr="_._._._._._._._._" >不限</a>
+                                        <a href="/shenzhen/azxzxzx1xzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-299" data-val="1" data-attr="_._._.1._._._._._" >在建中</a>
+                                        <a href="/shenzhen/azxzxzx2xzxzxzxzxz-ov1" class="Js_attrval " data-attrId="-299" data-val="2" data-attr="_._._.2._._._._._" >已建成</a>
+
+                                </div>
+                            </dd>
+                        </dl>
+                            <a class="f-dx Js_dx" href="#" style="display: block;">多选</a>
+
+                    </div>
+                        <p class="fm-btn JsBtn" style="display: none;">
+                            <a class="Js_filterOk btn-star-seach" href="#" data-attr="_._._.*._._._._._" >确定</a>
+                            <a class="Js_filterCancle" href="#">取消</a>
+                        </p>
+
+                </div>
+                <div class="filter-list Js_filterList Js_attr" data-attr="-17">
+                    <div class="clearfix">
+                        <dl class="clearfix">
+                            <dt>仓库面积：</dt>
+                            <dd class="filter-met-list clearfix">
+                                <div class="more">
+
+                                    <a href="/shenzhen/ov1" class="bx Js_bx Js_attrval" data-attr="_._._._._._._._._" >不限</a>
+                                        <a href="/shenzhen/azxzxzxzx999xzxzxzxz-ov1" class="Js_attrval " data-attrId="-17" data-val="999" data-attr="_._._._.999._._._._" >1000平方米以下</a>
+                                        <a href="/shenzhen/azxzxzxzx268505093xzxzxzxz-ov1" class="Js_attrval " data-attrId="-17" data-val="268505093" data-attr="_._._._.268505093._._._._" >1000-5000平方米</a>
+                                        <a href="/shenzhen/azxzxzxzx268771329xzxzxzxz-ov1" class="Js_attrval " data-attrId="-17" data-val="268771329" data-attr="_._._._.268771329._._._._" >5000-1万平方米</a>
+                                        <a href="/shenzhen/azxzxzxzx536944645xzxzxzxz-ov1" class="Js_attrval " data-attrId="-17" data-val="536944645" data-attr="_._._._.536944645._._._._" >1万-5万平方米</a>
+                                        <a href="/shenzhen/azxzxzxzx537198592xzxzxzxz-ov1" class="Js_attrval " data-attrId="-17" data-val="537198592" data-attr="_._._._.537198592._._._._" >5万平方米及以上</a>
+
+                                        <div class="user-area">
+                                            <input type="text" class="input-attr input--17" v-model="inputAttrVals['i-17s']" name="i-17s" data-attr="_._._._.*._._._._" /><i>-</i>
+                                            <input type="text" class="input-attr input--17" v-model="inputAttrVals['i-17e']" name="i-17e" data-attr="_._._._.*._._._._" /><i>平方米</i>
+                                            <a href="#" class="btn-star-seach Js_InputOk" v-show="inputAttrVals['i-17s']||inputAttrVals['i-17e']"
+                                               data-attr="_._._._.*._._._._">确定</a>
+                                        </div>
+                                </div>
+                            </dd>
+                        </dl>
+
+                    </div>
+
+                </div>
+                <div class="filter-list Js_filterList Js_attr" data-attr="-19">
+                    <div class="clearfix">
+                        <dl class="clearfix">
+                            <dt>仓库地坪：</dt>
+                            <dd class="filter-met-list clearfix">
+                                <div class="more">
+
+                                    <a href="/shenzhen/ov1" class="bx Js_bx Js_attrval" data-attr="_._._._._._._._._" >不限</a>
+                                        <a href="/shenzhen/azxzxzxzxzx1xzxzxz-ov1" class="Js_attrval " data-attrId="-19" data-val="1" data-attr="_._._._._.1._._._" >混凝土</a>
+                                        <a href="/shenzhen/azxzxzxzxzx2xzxzxz-ov1" class="Js_attrval " data-attrId="-19" data-val="2" data-attr="_._._._._.2._._._" >地砖</a>
+                                        <a href="/shenzhen/azxzxzxzxzx3xzxzxz-ov1" class="Js_attrval " data-attrId="-19" data-val="3" data-attr="_._._._._.3._._._" >耐磨</a>
+                                        <a href="/shenzhen/azxzxzxzxzx4xzxzxz-ov1" class="Js_attrval " data-attrId="-19" data-val="4" data-attr="_._._._._.4._._._" >环氧</a>
+                                        <a href="/shenzhen/azxzxzxzxzx5xzxzxz-ov1" class="Js_attrval " data-attrId="-19" data-val="5" data-attr="_._._._._.5._._._" >防尘</a>
+                                        <a href="/shenzhen/azxzxzxzxzx6xzxzxz-ov1" class="Js_attrval " data-attrId="-19" data-val="6" data-attr="_._._._._.6._._._" >防潮</a>
+                                        <a href="/shenzhen/azxzxzxzxzx7xzxzxz-ov1" class="Js_attrval " data-attrId="-19" data-val="7" data-attr="_._._._._.7._._._" >防静电</a>
+                                        <a href="/shenzhen/azxzxzxzxzx8xzxzxz-ov1" class="Js_attrval " data-attrId="-19" data-val="8" data-attr="_._._._._.8._._._" >金刚砂</a>
+                                        <a href="/shenzhen/azxzxzxzxzx9xzxzxz-ov1" class="Js_attrval " data-attrId="-19" data-val="9" data-attr="_._._._._.9._._._" >水泥</a>
+
+                                </div>
+                            </dd>
+                        </dl>
+                            <a class="f-dx Js_dx" href="#" style="display: block;">多选</a>
+
+                    </div>
+                        <p class="fm-btn JsBtn" style="display: none;">
+                            <a class="Js_filterOk btn-star-seach" href="#" data-attr="_._._._._.*._._._" >确定</a>
+                            <a class="Js_filterCancle" href="#">取消</a>
+                        </p>
+
+                </div>
+                <div class="filter-list Js_filterList Js_attr" data-attr="-16">
+                    <div class="clearfix">
+                        <dl class="clearfix">
+                            <dt>可否分割：</dt>
+                            <dd class="filter-met-list clearfix">
+                                <div class="more">
+
+                                    <a href="/shenzhen/ov1" class="bx Js_bx Js_attrval" data-attr="_._._._._._._._._" >不限</a>
+                                        <a href="/shenzhen/azxzxzxzxzxzx0xzxz-ov1" class="Js_attrval " data-attrId="-16" data-val="0" data-attr="_._._._._._.0._._" >不可分割</a>
+                                        <a href="/shenzhen/azxzxzxzxzxzx1xzxz-ov1" class="Js_attrval " data-attrId="-16" data-val="1" data-attr="_._._._._._.1._._" >可分割</a>
+
+                                </div>
+                            </dd>
+                        </dl>
+
+                    </div>
+
+                </div>
+                <div class="filter-list Js_filterList Js_attr" data-attr="-30">
+                    <div class="clearfix">
+                        <dl class="clearfix">
+                            <dt>仓库种类：</dt>
+                            <dd class="filter-met-list clearfix">
+                                <div class="more">
+
+                                    <a href="/shenzhen/ov1" class="bx Js_bx Js_attrval" data-attr="_._._._._._._._._" >不限</a>
+                                        <a href="/shenzhen/azxzxzxzxzxzxzx5xz-ov1" class="Js_attrval " data-attrId="-30" data-val="5" data-attr="_._._._._._._.5._" >五星仓</a>
+                                        <a href="/shenzhen/azxzxzxzxzxzxzx4xz-ov1" class="Js_attrval " data-attrId="-30" data-val="4" data-attr="_._._._._._._.4._" >四星仓</a>
+                                        <a href="/shenzhen/azxzxzxzxzxzxzx3xz-ov1" class="Js_attrval " data-attrId="-30" data-val="3" data-attr="_._._._._._._.3._" >三星仓</a>
+                                        <a href="/shenzhen/azxzxzxzxzxzxzx0xz-ov1" class="Js_attrval " data-attrId="-30" data-val="0" data-attr="_._._._._._._.0._" >普通仓</a>
+
+                                </div>
+                            </dd>
+                        </dl>
+                            <a class="f-dx Js_dx" href="#" style="display: block;">多选</a>
+
+                    </div>
+                        <p class="fm-btn JsBtn" style="display: none;">
+                            <a class="Js_filterOk btn-star-seach" href="#" data-attr="_._._._._._._.*._" >确定</a>
+                            <a class="Js_filterCancle" href="#">取消</a>
+                        </p>
+
+                </div>
+                <div class="filter-list Js_filterList Js_attr" data-attr="-28">
+                    <div class="clearfix">
+                        <dl class="clearfix">
+                            <dt>仓库服务：</dt>
+                            <dd class="filter-met-list clearfix">
+                                <div class="more">
+
+                                    <a href="/shenzhen/ov1" class="bx Js_bx Js_attrval" data-attr="_._._._._._._._._" >不限</a>
+                                        <a href="/shenzhen/azxzxzxzxzxzxzxzx1-ov1" class="Js_attrval " data-attrId="-28" data-val="1" data-attr="_._._._._._._._.1" >租赁服务</a>
+                                        <a href="/shenzhen/azxzxzxzxzxzxzxzx2-ov1" class="Js_attrval " data-attrId="-28" data-val="2" data-attr="_._._._._._._._.2" >仓配服务</a>
+
+                                </div>
+                            </dd>
+                        </dl>
+                            <a class="f-dx Js_dx" href="#" style="display: block;">多选</a>
+
+                    </div>
+                        <p class="fm-btn JsBtn" style="display: none;">
+                            <a class="Js_filterOk btn-star-seach" href="#" data-attr="_._._._._._._._.*" >确定</a>
+                            <a class="Js_filterCancle" href="#">取消</a>
+                        </p>
+
+                </div>
+        </div>
+    </div>
+    <div class="show-all-star Js-switch">
+        <span>更多筛选</span><u></u>
+    </div>
+</div>
+<script>
+    function initSearchFilter() {
+        $('.Js-switch')
+            .on('click',
+                function () {
+                    if ($(this).parent().find('.Js-show').is(':hidden')) {
+                        $(this).parent().find('.Js-show').slideDown();
+                        $(this).addClass('show').find('span').text('隐藏筛选');
+                        window.rptSearch.filterOpened = true;
+                    } else {
+                        $(this).parent().find('.Js-show').slideUp();
+                        $(this).removeClass('show').find('span').text('更多筛选');
+                        window.rptSearch.filterOpened = false;
+                    }
+                });
+        $('.Js-s-place')
+            .on('click',
+                function () {
+                    if (!$(this).parent().hasClass('show')) {
+                        $(this).parent().addClass('show');
+                        $(this).parent().find('.s-more').slideDown();
+                        $(this).addClass('up').find('span').text('收起');
+                        window.rptSearch.districtOpened = true;
+                    } else {
+                        $(this).parent().find('.s-more').slideUp();
+                        $(this).removeClass('up').find('span').text('更多');
+                        $(this).parent().removeClass('show');
+                        window.rptSearch.districtOpened = false;
+                    }
+                });
+        $(window)
+            .scroll(function () {
+                var input = $('.wh-place').find(':input:text');
+                var l = input.offset().left,
+                    t = input.offset().top - $(window).scrollTop();
+                $('.Js-search-list').css({ 'left': l, 'top': t });
+            });
+    }
+</script>
+
+            </div>
+            <div id="result">
+                
+<div class="filter-order">
+    <dl class="clearfix">
+        <dt>排序:</dt>
+        <dd><a href="/shenzhen/o0" class="o-icon " data-order="0">最热门</a></dd>
+        <dd><a href="/shenzhen/ov1" class="o-icon current" data-order="-1">综合</a></dd>
+        <dd><a href="/shenzhen" class="o-icon " data-order="-6">最新</a></dd>
+        <dd><a href="/shenzhen/o2" class="o-icon order-item   " data-order="-2" data-order-desc=&quot;true&quot;>面积<s></s></a></dd>
+        <dd><a href="/shenzhen/o3" class="o-icon order-item   " data-order="-3" data-order-desc=&quot;true&quot;>价格<s></s></a></dd>
+
+        <dd class="order-price clearfix">
+            <div class="order-price-input">
+                <span class="price-icon">￥</span><input id="pi" name="pi" type="text" />
+            </div>
+            <div class="order-fh">-</div>
+            <div class="order-price-input">
+                <span class="price-icon">￥</span><input id="px" name="px" type="text" />
+            </div>
+
+        </dd>
+        <dd class=" clearfix">
+            <div class="o-icon fm-btn price-btn">
+                <a href="#" class="Js_priceOk ">确定</a>
+            </div>
+
+        </dd>
+        <dd class="order-page clearfix">
+            <a href="#"
+               class="page-left-btn  disable-type-left " data-xq="1"></a>
+            <span><b class="page-num">1</b>/<b>6</b></span>
+            <a href="/shenzhen/ov1/page2"
+               class="page-right-btn Js_pager" data-xq="1"></a>
+        </dd>
+        <dd class="map-switch">
+            <a href="/warehouse/map">地图<s></s></a>
+            <div>列表<s></s></div>
+            <p class="result-num">找到相关仓库<b>57</b>个</p>
+        </dd>
+    </dl>
+</div>
+<div class="search-result-box">
+    <div class="clearfix">
+        <div class="search-result-list">
+            <ul class="clearfix">
+                                    <li>
+
+                        <div class="bg-hover">
+                            <a href="/shenzhen/2887" target="_blank" class="searchlink">
+                                <div class="search-result-img">
+                                                                            <i class="three star-tag"><u></u>三星仓</i>
+
+                                    <img src="https://static.50yc.com/default/2017/05/08/27912eb2-dbd6-4d22-9a90-1384a2955cba_primary.jpg" alt="深圳龙岗南湾街道电子元器件专用仓库出租">
+                                </div>
+                                <div class="search-con-right">
+                                    <div class="msg-name">
+                                        <p class="search-result-name">
+                                            
+                                            <strong>深圳龙岗南湾街道电子元器件专用仓库出租</strong>
+                                            
+                                            
+                                        </p>
+                                        <div class="msg-percent">信息完整度：<strong>100</strong>%</div>
+                                    </div>
+                                    <div class="search-result-sm">
+                                        <p class="wh-tag">
+                                                <span>租赁服务</span>
+                                                <span>仓配服务</span>
+
+                                        </p>
+                                        
+                                        <p class="search-result-type">普通仓 | 总面积 15000㎡ | 可分割</p>
+                                        <p class="search-result-address">
+                                            广东 深圳市 龙岗区
+                                        </p>
+                                        
+
+
+                                    </div>
+                                    <div class="search-result-price">
+                                        <span>可租面积<i>2000</i>㎡</span>
+                                            <p class="price-red">
+                                                <em>￥</em><i>30.00</i>
+                                                
+                                                <u class="price-up" title="租金上浮29.00"></u>
+                                                
+                                            </p>
+                                        <b>元/㎡·月</b>
+                                    </div>
+                                    <div class="search-result-time">
+                                        <p class="search-result-isrz fl">
+                                            
+                                                <span class="qr"><s class="ymz k"></s>未满租</span>
+                                                                                                                                        <span class="no-icon">最近租出<b>4000</b>平米</span>
+
+                                        </p>
+                                        <p class="fl gray">
+                                            更新时间：2018-07-11                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="search-result-function">
+                                <a href="javascript:FollowRpt(2887);" id="flowBtn_2887" class="Js_flowBtn "><i class="icon-star"></i>收藏仓库</a>
+                                <a id="orderBtn_2887" class="Js_orderBtn" data-rptId="2887" href="javascript:void(0)" onclick="addToCart({id:2887,detailUrl:'/shenzhen/2887',name: '深圳龙岗南湾街道电子元器件专用仓库出租',imgSrc: 'https://static.50yc.com/default/2017/05/08/27912eb2-dbd6-4d22-9a90-1384a2955cba_primary.jpg',price: 30.00,rptTypeId: 1,provCode: 440000,cityCode: 440300,areaCode: 440307,rentArea:2000,serviceType:3},function(o,b){SetOrderBtnState(o.id,b);},this);"><i class="icon-check"></i>加入看仓</a>
+                                
+                                
+                                <a href="/shenzhen/2887" target="_blank" class="btn-see-detail" data-rptid="2887" data-rptType="1" data-rptName="深圳龙岗南湾街道电子元器件专用仓库出租" data-rptProv="440000" data-rptCity="440300" data-rptArea="440307">查看详细</a>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="bg-hover">
+                            <a href="/shenzhen/2612" target="_blank" class="searchlink">
+                                <div class="search-result-img">
+                                                                            <i class="three star-tag"><u></u>三星仓</i>
+
+                                    <img src="https://static.50yc.com/default/2017/03/30/cf552257-bc7a-41dc-9c10-08e65b660e5c_primary.JPG" alt="深圳宝安区福永镇工业园仓库">
+                                </div>
+                                <div class="search-con-right">
+                                    <div class="msg-name">
+                                        <p class="search-result-name">
+                                            
+                                            <strong>深圳宝安区福永镇工业园仓库</strong>
+                                            
+                                            
+                                        </p>
+                                        <div class="msg-percent">信息完整度：<strong>100</strong>%</div>
+                                    </div>
+                                    <div class="search-result-sm">
+                                        <p class="wh-tag">
+                                                <span>租赁服务</span>
+                                                <span>仓配服务</span>
+
+                                        </p>
+                                        
+                                        <p class="search-result-type">普通仓 | 总面积 24000㎡ | 可分割</p>
+                                        <p class="search-result-address">
+                                            广东 深圳市 宝安区
+                                        </p>
+                                        
+
+
+                                    </div>
+                                    <div class="search-result-price">
+                                        <span>可租面积<i>1300</i>㎡</span>
+                                            <p class="price-blue">
+                                                <em>￥</em><i>24.90</i>
+                                            </p>
+                                        <b>元/㎡·月</b>
+                                    </div>
+                                    <div class="search-result-time">
+                                        <p class="search-result-isrz fl">
+                                            
+                                                <span class="qr"><s class="ymz k"></s>未满租</span>
+                                                                                                                                        <span class="no-icon">新增<b>300</b>平米可租</span>
+
+                                        </p>
+                                        <p class="fl gray">
+                                            更新时间：2018-07-24                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="search-result-function">
+                                <a href="javascript:FollowRpt(2612);" id="flowBtn_2612" class="Js_flowBtn "><i class="icon-star"></i>收藏仓库</a>
+                                <a id="orderBtn_2612" class="Js_orderBtn" data-rptId="2612" href="javascript:void(0)" onclick="addToCart({id:2612,detailUrl:'/shenzhen/2612',name: '深圳宝安区福永镇工业园仓库',imgSrc: 'https://static.50yc.com/default/2017/03/30/cf552257-bc7a-41dc-9c10-08e65b660e5c_primary.JPG',price: 24.90,rptTypeId: 1,provCode: 440000,cityCode: 440300,areaCode: 440306,rentArea:1300,serviceType:3},function(o,b){SetOrderBtnState(o.id,b);},this);"><i class="icon-check"></i>加入看仓</a>
+                                
+                                
+                                <a href="/shenzhen/2612" target="_blank" class="btn-see-detail" data-rptid="2612" data-rptType="1" data-rptName="深圳宝安区福永镇工业园仓库" data-rptProv="440000" data-rptCity="440300" data-rptArea="440306">查看详细</a>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="bg-hover">
+                            <a href="/shenzhen/2613" target="_blank" class="searchlink">
+                                <div class="search-result-img">
+                                                                            <i class="three star-tag"><u></u>三星仓</i>
+
+                                    <img src="https://static.50yc.com/default/2017/03/31/3b77bfcd-5c4e-402e-8de2-eb3339b670c5_primary.jpg" alt="龙华区观澜街道观光路仓库">
+                                </div>
+                                <div class="search-con-right">
+                                    <div class="msg-name">
+                                        <p class="search-result-name">
+                                            
+                                            <strong>龙华区观澜街道观光路仓库</strong>
+                                            
+                                            
+                                        </p>
+                                        <div class="msg-percent">信息完整度：<strong>100</strong>%</div>
+                                    </div>
+                                    <div class="search-result-sm">
+                                        <p class="wh-tag">
+                                                <span>租赁服务</span>
+                                                <span>仓配服务</span>
+
+                                        </p>
+                                        
+                                        <p class="search-result-type">普通仓 | 总面积 27810㎡ | 可分割</p>
+                                        <p class="search-result-address">
+                                            广东 深圳市 宝安区
+                                        </p>
+                                        
+
+
+                                    </div>
+                                    <div class="search-result-price">
+                                        <span>可租面积<i>300</i>㎡</span>
+                                            <p class="price-blue">
+                                                <em>￥</em><i>31.80</i>
+                                            </p>
+                                        <b>元/㎡·月</b>
+                                    </div>
+                                    <div class="search-result-time">
+                                        <p class="search-result-isrz fl">
+                                            
+                                                <span class="qr"><s class="ymz k"></s>未满租</span>
+                                                                                        
+                                        </p>
+                                        <p class="fl gray">
+                                            更新时间：2018-07-26                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="search-result-function">
+                                <a href="javascript:FollowRpt(2613);" id="flowBtn_2613" class="Js_flowBtn "><i class="icon-star"></i>收藏仓库</a>
+                                <a id="orderBtn_2613" class="Js_orderBtn" data-rptId="2613" href="javascript:void(0)" onclick="addToCart({id:2613,detailUrl:'/shenzhen/2613',name: '龙华区观澜街道观光路仓库',imgSrc: 'https://static.50yc.com/default/2017/03/31/3b77bfcd-5c4e-402e-8de2-eb3339b670c5_primary.jpg',price: 31.80,rptTypeId: 1,provCode: 440000,cityCode: 440300,areaCode: 440306,rentArea:300,serviceType:3},function(o,b){SetOrderBtnState(o.id,b);},this);"><i class="icon-check"></i>加入看仓</a>
+                                
+                                
+                                <a href="/shenzhen/2613" target="_blank" class="btn-see-detail" data-rptid="2613" data-rptType="1" data-rptName="龙华区观澜街道观光路仓库" data-rptProv="440000" data-rptCity="440300" data-rptArea="440306">查看详细</a>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="bg-hover">
+                            <a href="/shenzhen/5356" target="_blank" class="searchlink">
+                                <div class="search-result-img">
+                                    
+                                    <img src="https://static.50yc.com/default/2018/08/08/637ef07a-2ac5-4b36-919a-073a033495b1_primary.jpg" alt="深圳龙华区观澜大道附近钢构厂库房招租">
+                                </div>
+                                <div class="search-con-right">
+                                    <div class="msg-name">
+                                        <p class="search-result-name">
+                                            
+                                            <strong>深圳龙华区观澜大道附近钢构厂库房招租</strong>
+                                            
+                                            
+                                        </p>
+                                        <div class="msg-percent">信息完整度：<strong>80</strong>%</div>
+                                    </div>
+                                    <div class="search-result-sm">
+                                        <p class="wh-tag">
+                                                <span>租赁服务</span>
+                                                <span>仓配服务</span>
+
+                                        </p>
+                                        
+                                        <p class="search-result-type">普通仓 | 总面积 30000㎡ | 可分割</p>
+                                        <p class="search-result-address">
+                                            广东 深圳市 龙华区
+                                        </p>
+                                        
+
+
+                                    </div>
+                                    <div class="search-result-price">
+                                        <span>可租面积<i>30000</i>㎡</span>
+                                            <p class="price-blue">
+                                                <em>￥</em><i>35.00</i>
+                                            </p>
+                                        <b>元/㎡·月</b>
+                                    </div>
+                                    <div class="search-result-time">
+                                        <p class="search-result-isrz fl">
+                                                <span class="qr"><s class="wrz"></s>未认证</span>
+                                            
+                                                <span class="qr"><s class="ymz x"></s>闲置中</span>
+                                                                                        
+                                        </p>
+                                        <p class="fl gray">
+                                            更新时间：2018-08-08                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="search-result-function">
+                                <a href="javascript:FollowRpt(5356);" id="flowBtn_5356" class="Js_flowBtn "><i class="icon-star"></i>收藏仓库</a>
+                                <a id="orderBtn_5356" class="Js_orderBtn" data-rptId="5356" href="javascript:void(0)" onclick="addToCart({id:5356,detailUrl:'/shenzhen/5356',name: '深圳龙华区观澜大道附近钢构厂库房招租',imgSrc: 'https://static.50yc.com/default/2018/08/08/637ef07a-2ac5-4b36-919a-073a033495b1_primary.jpg',price: 35.00,rptTypeId: 1,provCode: 440000,cityCode: 440300,areaCode: 440309,rentArea:30000,serviceType:3},function(o,b){SetOrderBtnState(o.id,b);},this);"><i class="icon-check"></i>加入看仓</a>
+                                
+                                
+                                <a href="/shenzhen/5356" target="_blank" class="btn-see-detail" data-rptid="5356" data-rptType="1" data-rptName="深圳龙华区观澜大道附近钢构厂库房招租" data-rptProv="440000" data-rptCity="440300" data-rptArea="440309">查看详细</a>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="bg-hover">
+                            <a href="/shenzhen/175" target="_blank" class="searchlink">
+                                <div class="search-result-img">
+                                    
+                                    <img src="https://static.50yc.com/default/2017/07/03/83f8f9d8-8ec3-4240-be28-584a629b6f56_primary.jpg" alt="深圳盐田保税物流园仓库招租">
+                                </div>
+                                <div class="search-con-right">
+                                    <div class="msg-name">
+                                        <p class="search-result-name">
+                                            
+                                            <strong>深圳盐田保税物流园仓库招租</strong>
+                                            
+                                            
+                                        </p>
+                                        <div class="msg-percent">信息完整度：<strong>60</strong>%</div>
+                                    </div>
+                                    <div class="search-result-sm">
+                                        <p class="wh-tag">
+                                                <span>租赁服务</span>
+
+                                        </p>
+                                        
+                                        <p class="search-result-type">其他 | 总面积 63000㎡ | 可分割</p>
+                                        <p class="search-result-address">
+                                            广东 深圳市 盐田区
+                                        </p>
+                                        
+
+
+                                    </div>
+                                    <div class="search-result-price">
+                                        <span>可租面积<i>0</i>㎡</span>
+                                            <p class="price-blue">
+                                                <em>￥</em><i>40.00</i>
+                                            </p>
+                                        <b>元/㎡·月</b>
+                                    </div>
+                                    <div class="search-result-time">
+                                        <p class="search-result-isrz fl">
+                                                <span class="qr"><s class="wrz"></s>未认证</span>
+                                            
+                                                <span class="qr"><s class="wmz"></s>已满租</span>
+                                                                                                                                        <span class="no-icon">最近租出<b>5000</b>平米</span>
+
+                                        </p>
+                                        <p class="fl gray">
+                                            更新时间：2018-07-05                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="search-result-function">
+                                <a href="javascript:FollowRpt(175);" id="flowBtn_175" class="Js_flowBtn "><i class="icon-star"></i>收藏仓库</a>
+                                <a id="orderBtn_175" class="Js_orderBtn" data-rptId="175" href="javascript:void(0)" onclick="addToCart({id:175,detailUrl:'/shenzhen/175',name: '深圳盐田保税物流园仓库招租',imgSrc: 'https://static.50yc.com/default/2017/07/03/83f8f9d8-8ec3-4240-be28-584a629b6f56_primary.jpg',price: 40.00,rptTypeId: 11,provCode: 440000,cityCode: 440300,areaCode: 440308,rentArea:0,serviceType:1},function(o,b){SetOrderBtnState(o.id,b);},this);"><i class="icon-check"></i>加入看仓</a>
+                                
+                                
+                                <a href="/shenzhen/175" target="_blank" class="btn-see-detail" data-rptid="175" data-rptType="11" data-rptName="深圳盐田保税物流园仓库招租" data-rptProv="440000" data-rptCity="440300" data-rptArea="440308">查看详细</a>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="bg-hover">
+                            <a href="/shenzhen/964" target="_blank" class="searchlink">
+                                <div class="search-result-img">
+                                    
+                                    <img src="https://static.50yc.com/default/2016/05/12/81a696d4-5566-403b-9b13-1e9a2d5d03f9_primary.jpg" alt="深圳平湖电商产业园仓库招租">
+                                </div>
+                                <div class="search-con-right">
+                                    <div class="msg-name">
+                                        <p class="search-result-name">
+                                            
+                                            <strong>深圳平湖电商产业园仓库招租</strong>
+                                            
+                                            
+                                        </p>
+                                        <div class="msg-percent">信息完整度：<strong>80</strong>%</div>
+                                    </div>
+                                    <div class="search-result-sm">
+                                        <p class="wh-tag">
+                                                <span>租赁服务</span>
+
+                                        </p>
+                                        
+                                        <p class="search-result-type">普通仓 | 总面积 100000㎡ | 可分割</p>
+                                        <p class="search-result-address">
+                                            广东 深圳市 龙岗区
+                                        </p>
+                                        
+
+
+                                    </div>
+                                    <div class="search-result-price">
+                                        <span>可租面积<i>4000</i>㎡</span>
+                                            <p class="price-blue">
+                                                <em>￥</em><i>33.00</i>
+                                            </p>
+                                        <b>元/㎡·月</b>
+                                    </div>
+                                    <div class="search-result-time">
+                                        <p class="search-result-isrz fl">
+                                                <span class="qr"><s class="wrz"></s>未认证</span>
+                                            
+                                                <span class="qr"><s class="ymz k"></s>未满租</span>
+                                                                                                                                        <span class="no-icon">新增<b>2000</b>平米可租</span>
+
+                                        </p>
+                                        <p class="fl gray">
+                                            更新时间：2018-07-05                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="search-result-function">
+                                <a href="javascript:FollowRpt(964);" id="flowBtn_964" class="Js_flowBtn "><i class="icon-star"></i>收藏仓库</a>
+                                <a id="orderBtn_964" class="Js_orderBtn" data-rptId="964" href="javascript:void(0)" onclick="addToCart({id:964,detailUrl:'/shenzhen/964',name: '深圳平湖电商产业园仓库招租',imgSrc: 'https://static.50yc.com/default/2016/05/12/81a696d4-5566-403b-9b13-1e9a2d5d03f9_primary.jpg',price: 33.00,rptTypeId: 1,provCode: 440000,cityCode: 440300,areaCode: 440307,rentArea:4000,serviceType:1},function(o,b){SetOrderBtnState(o.id,b);},this);"><i class="icon-check"></i>加入看仓</a>
+                                
+                                
+                                <a href="/shenzhen/964" target="_blank" class="btn-see-detail" data-rptid="964" data-rptType="1" data-rptName="深圳平湖电商产业园仓库招租" data-rptProv="440000" data-rptCity="440300" data-rptArea="440307">查看详细</a>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="bg-hover">
+                            <a href="/shenzhen/1963" target="_blank" class="searchlink">
+                                <div class="search-result-img">
+                                    
+                                    <img src="https://static.50yc.com/default/2016/12/05/abb14080-d9b2-4abf-935b-33888a00adb7_primary.jpg" alt="深圳南山保税区专业红酒库出租">
+                                </div>
+                                <div class="search-con-right">
+                                    <div class="msg-name">
+                                        <p class="search-result-name">
+                                            
+                                            <strong>深圳南山保税区专业红酒库出租</strong>
+                                            
+                                            
+                                        </p>
+                                        <div class="msg-percent">信息完整度：<strong>100</strong>%</div>
+                                    </div>
+                                    <div class="search-result-sm">
+                                        <p class="wh-tag">
+                                                <span>租赁服务</span>
+
+                                        </p>
+                                        
+                                        <p class="search-result-type">恒温库 | 总面积 9917㎡ | 可分割</p>
+                                        <p class="search-result-address">
+                                            广东 深圳市 南山区
+                                        </p>
+                                        
+
+
+                                    </div>
+                                    <div class="search-result-price">
+                                        <span>可租面积<i>0</i>㎡</span>
+                                            <p class="price-blue">
+                                                <em>￥</em><i>65.00</i>
+                                            </p>
+                                        <b>元/㎡·月</b>
+                                    </div>
+                                    <div class="search-result-time">
+                                        <p class="search-result-isrz fl">
+                                                <span class="qr"><s class="yrz"></s>实地认证</span>
+                                            
+                                                <span class="qr"><s class="wmz"></s>已满租</span>
+                                                                                                                                        <span class="no-icon">最近租出<b>200</b>平米</span>
+
+                                        </p>
+                                        <p class="fl gray">
+                                            更新时间：2018-07-05                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="search-result-function">
+                                <a href="javascript:FollowRpt(1963);" id="flowBtn_1963" class="Js_flowBtn "><i class="icon-star"></i>收藏仓库</a>
+                                <a id="orderBtn_1963" class="Js_orderBtn" data-rptId="1963" href="javascript:void(0)" onclick="addToCart({id:1963,detailUrl:'/shenzhen/1963',name: '深圳南山保税区专业红酒库出租',imgSrc: 'https://static.50yc.com/default/2016/12/05/abb14080-d9b2-4abf-935b-33888a00adb7_primary.jpg',price: 65.00,rptTypeId: 2,provCode: 440000,cityCode: 440300,areaCode: 440305,rentArea:0,serviceType:1},function(o,b){SetOrderBtnState(o.id,b);},this);"><i class="icon-check"></i>加入看仓</a>
+                                
+                                
+                                <a href="/shenzhen/1963" target="_blank" class="btn-see-detail" data-rptid="1963" data-rptType="2" data-rptName="深圳南山保税区专业红酒库出租" data-rptProv="440000" data-rptCity="440300" data-rptArea="440305">查看详细</a>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="bg-hover">
+                            <a href="/shenzhen/2311" target="_blank" class="searchlink">
+                                <div class="search-result-img">
+                                    
+                                    <img src="https://static.50yc.com/default/2017/02/15/610ca194-4a1e-4e3b-a84d-03a983868114_primary.jpg" alt="深圳龙岗坪山新区大型硬化场地">
+                                </div>
+                                <div class="search-con-right">
+                                    <div class="msg-name">
+                                        <p class="search-result-name">
+                                            
+                                            <strong>深圳龙岗坪山新区大型硬化场地</strong>
+                                            
+                                            
+                                        </p>
+                                        <div class="msg-percent">信息完整度：<strong>60</strong>%</div>
+                                    </div>
+                                    <div class="search-result-sm">
+                                        <p class="wh-tag">
+                                                <span>租赁服务</span>
+
+                                        </p>
+                                        
+                                        <p class="search-result-type">露天堆场 | 总面积 95000㎡ | 可分割</p>
+                                        <p class="search-result-address">
+                                            广东 深圳市 龙岗区
+                                        </p>
+                                        
+
+
+                                    </div>
+                                    <div class="search-result-price">
+                                        <span>可租面积<i>6500</i>㎡</span>
+                                            <p class="price-blue">
+                                                <em>￥</em><i>5.00</i>
+                                            </p>
+                                        <b>元/㎡·月</b>
+                                    </div>
+                                    <div class="search-result-time">
+                                        <p class="search-result-isrz fl">
+                                                <span class="qr"><s class="wrz"></s>未认证</span>
+                                            
+                                                <span class="qr"><s class="ymz k"></s>未满租</span>
+                                                                                                                                        <span class="no-icon">最近租出<b>48500</b>平米</span>
+
+                                        </p>
+                                        <p class="fl gray">
+                                            更新时间：2018-08-02                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="search-result-function">
+                                <a href="javascript:FollowRpt(2311);" id="flowBtn_2311" class="Js_flowBtn "><i class="icon-star"></i>收藏仓库</a>
+                                <a id="orderBtn_2311" class="Js_orderBtn" data-rptId="2311" href="javascript:void(0)" onclick="addToCart({id:2311,detailUrl:'/shenzhen/2311',name: '深圳龙岗坪山新区大型硬化场地',imgSrc: 'https://static.50yc.com/default/2017/02/15/610ca194-4a1e-4e3b-a84d-03a983868114_primary.jpg',price: 5.00,rptTypeId: 8,provCode: 440000,cityCode: 440300,areaCode: 440307,rentArea:6500,serviceType:1},function(o,b){SetOrderBtnState(o.id,b);},this);"><i class="icon-check"></i>加入看仓</a>
+                                
+                                
+                                <a href="/shenzhen/2311" target="_blank" class="btn-see-detail" data-rptid="2311" data-rptType="8" data-rptName="深圳龙岗坪山新区大型硬化场地" data-rptProv="440000" data-rptCity="440300" data-rptArea="440307">查看详细</a>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="bg-hover">
+                            <a href="/shenzhen/5294" target="_blank" class="searchlink">
+                                <div class="search-result-img">
+                                    
+                                    <img src="https://static.50yc.com/default/2018/07/30/87d80555-5370-43e0-aa62-0b54f471be56_primary.jpg" alt="深圳宝安区固戍内环路楼层电商仓库出租">
+                                </div>
+                                <div class="search-con-right">
+                                    <div class="msg-name">
+                                        <p class="search-result-name">
+                                            
+                                            <strong>深圳宝安区固戍内环路楼层电商仓库出租</strong>
+                                            
+                                            
+                                        </p>
+                                        <div class="msg-percent">信息完整度：<strong>88</strong>%</div>
+                                    </div>
+                                    <div class="search-result-sm">
+                                        <p class="wh-tag">
+                                                <span>仓配服务</span>
+
+                                        </p>
+                                        
+                                        <p class="search-result-type">普通仓 | 总面积 3000㎡ | 可分割</p>
+                                        <p class="search-result-address">
+                                            广东 深圳市 宝安区
+                                        </p>
+                                        
+
+
+                                    </div>
+                                    <div class="search-result-price">
+                                        <span>可租面积<i>1500</i>㎡</span>
+                                            <p class="price-green">
+                                                <em>￥</em><i>20.00</i>
+                                                
+                                                <u class="price-down" title="租金下降10.00"></u>
+                                                
+                                            </p>
+                                        <b>元/㎡·月</b>
+                                    </div>
+                                    <div class="search-result-time">
+                                        <p class="search-result-isrz fl">
+                                                <span class="qr"><s class="wrz"></s>未认证</span>
+                                            
+                                                <span class="qr"><s class="ymz k"></s>未满租</span>
+                                                                                        
+                                        </p>
+                                        <p class="fl gray">
+                                            更新时间：2018-08-01                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="search-result-function">
+                                <a href="javascript:FollowRpt(5294);" id="flowBtn_5294" class="Js_flowBtn "><i class="icon-star"></i>收藏仓库</a>
+                                <a id="orderBtn_5294" class="Js_orderBtn" data-rptId="5294" href="javascript:void(0)" onclick="addToCart({id:5294,detailUrl:'/shenzhen/5294',name: '深圳宝安区固戍内环路楼层电商仓库出租',imgSrc: 'https://static.50yc.com/default/2018/07/30/87d80555-5370-43e0-aa62-0b54f471be56_primary.jpg',price: 20.00,rptTypeId: 1,provCode: 440000,cityCode: 440300,areaCode: 440306,rentArea:1500,serviceType:2},function(o,b){SetOrderBtnState(o.id,b);},this);"><i class="icon-check"></i>加入看仓</a>
+                                
+                                
+                                <a href="/shenzhen/5294" target="_blank" class="btn-see-detail" data-rptid="5294" data-rptType="1" data-rptName="深圳宝安区固戍内环路楼层电商仓库出租" data-rptProv="440000" data-rptCity="440300" data-rptArea="440306">查看详细</a>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li>
+
+                        <div class="bg-hover">
+                            <a href="/shenzhen/3918" target="_blank" class="searchlink">
+                                <div class="search-result-img">
+                                    
+                                    <img src="https://static.50yc.com/default/2017/12/06/56e81757-303e-4700-801f-8665c08c82dd_primary.jpg" alt="深圳龙岗区四联路仓库出租">
+                                </div>
+                                <div class="search-con-right">
+                                    <div class="msg-name">
+                                        <p class="search-result-name">
+                                            
+                                            <strong>深圳龙岗区四联路仓库出租</strong>
+                                            
+                                            
+                                        </p>
+                                        <div class="msg-percent">信息完整度：<strong>60</strong>%</div>
+                                    </div>
+                                    <div class="search-result-sm">
+                                        <p class="wh-tag">
+                                                <span>租赁服务</span>
+
+                                        </p>
+                                        
+                                        <p class="search-result-type">普通仓 | 总面积 4888㎡ | 可分割</p>
+                                        <p class="search-result-address">
+                                            广东 深圳市 龙岗区
+                                        </p>
+                                        
+
+
+                                    </div>
+                                    <div class="search-result-price">
+                                        <span>可租面积<i>2000</i>㎡</span>
+                                            <p class="price-red">
+                                                <em>￥</em><i>30.00</i>
+                                                
+                                                <u class="price-up" title="租金上浮4.00"></u>
+                                                
+                                            </p>
+                                        <b>元/㎡·月</b>
+                                    </div>
+                                    <div class="search-result-time">
+                                        <p class="search-result-isrz fl">
+                                                <span class="qr"><s class="wrz"></s>未认证</span>
+                                            
+                                                <span class="qr"><s class="ymz k"></s>未满租</span>
+                                                                                                                                        <span class="no-icon">新增<b>1000</b>平米可租</span>
+
+                                        </p>
+                                        <p class="fl gray">
+                                            更新时间：2018-07-30                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="search-result-function">
+                                <a href="javascript:FollowRpt(3918);" id="flowBtn_3918" class="Js_flowBtn "><i class="icon-star"></i>收藏仓库</a>
+                                <a id="orderBtn_3918" class="Js_orderBtn" data-rptId="3918" href="javascript:void(0)" onclick="addToCart({id:3918,detailUrl:'/shenzhen/3918',name: '深圳龙岗区四联路仓库出租',imgSrc: 'https://static.50yc.com/default/2017/12/06/56e81757-303e-4700-801f-8665c08c82dd_primary.jpg',price: 30.00,rptTypeId: 1,provCode: 440000,cityCode: 440300,areaCode: 440307,rentArea:2000,serviceType:1},function(o,b){SetOrderBtnState(o.id,b);},this);"><i class="icon-check"></i>加入看仓</a>
+                                
+                                
+                                <a href="/shenzhen/3918" target="_blank" class="btn-see-detail" data-rptid="3918" data-rptType="1" data-rptName="深圳龙岗区四联路仓库出租" data-rptProv="440000" data-rptCity="440300" data-rptArea="440307">查看详细</a>
+                            </div>
+                            
+                        </div>
+                    </li>
+            </ul>
+        </div>
+
+        <div class="message-right">
+            
+
+            <div class="saw-wh">
+                <h3><span>类似仓库</span></h3>
+                <ul>
+                            <li>
+                                <a href="/shenzhen/4628" target="_blank">
+                                    <div class="sw-box">
+                                        
+                                        <img src="https://static.50yc.com/default/2018/05/28/19974ac4-6d7a-4284-a52c-c6482f75f7d0_primary.jpg" alt="" />
+                                    </div>
+                                    <p>
+                                        宝安区福永镇标准电商仓库
+                                        
+                                    </p>
+                                    
+                                    <p>可租面积：2000㎡</p>
+                                    <p>
+                                        <span><em>￥</em>30.00</span><em class="font-gray"> 起&nbsp;&nbsp;</em>元/㎡·月
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/shenzhen/1312" target="_blank">
+                                    <div class="sw-box">
+                                        
+                                        <img src="https://static.50yc.com/default/2016/07/09/e2958a06-5c0d-45dc-b61e-bd0e7c8431c2_primary.jpg" alt="" />
+                                    </div>
+                                    <p>
+                                        深圳南山仓配电商仓库招租
+                                        
+                                    </p>
+                                    
+                                    <p>可租面积：0㎡</p>
+                                    <p>
+                                        <span><em>￥</em>30.00</span><em class="font-gray"> 起&nbsp;&nbsp;</em>元/㎡·月
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/shenzhen/2581" target="_blank">
+                                    <div class="sw-box">
+                                        
+                                        <img src="https://static.50yc.com/default/2017/03/28/308b4422-9d69-4b31-8c9a-f5f22e92199b_primary.jpg" alt="" />
+                                    </div>
+                                    <p>
+                                        深圳市福田区上梅林北环路独栋独院仓库出租
+                                        
+                                    </p>
+                                    
+                                    <p>可租面积：0㎡</p>
+                                    <p>
+                                        <span><em>￥</em>50.00</span><em class="font-gray"> 起&nbsp;&nbsp;</em>元/㎡·月
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/shenzhen/3039" target="_blank">
+                                    <div class="sw-box">
+                                        
+                                        <img src="https://static.50yc.com/default/2017/05/31/d1a8f6ab-e66a-4ca5-9d40-166732d4f2b0_primary.jpg" alt="" />
+                                    </div>
+                                    <p>
+                                        深圳市宝安区石岩工业园仓库出租
+                                        
+                                    </p>
+                                    
+                                    <p>可租面积：0㎡</p>
+                                    <p>
+                                        <span><em>￥</em>33.00</span><em class="font-gray"> 起&nbsp;&nbsp;</em>元/㎡·月
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/shenzhen/3105" target="_blank">
+                                    <div class="sw-box">
+                                        
+                                        <img src="https://static.50yc.com/default/2017/06/14/4944adab-c883-449b-aa03-5e00719d3448_primary.jpg" alt="" />
+                                    </div>
+                                    <p>
+                                        深圳光明新区高新西路仓库出租
+                                        
+                                    </p>
+                                    
+                                    <p>可租面积：0㎡</p>
+                                    <p>
+                                        <span><em>￥</em>29.00</span><em class="font-gray"> 起&nbsp;&nbsp;</em>元/㎡·月
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/shenzhen/3248" target="_blank">
+                                    <div class="sw-box">
+                                        
+                                        <img src="https://static.50yc.com/default/2017/07/13/a72dad27-fc53-41ed-848d-fe8e3423052b_primary.jpg" alt="" />
+                                    </div>
+                                    <p>
+                                        深圳市盐田区东海道高台库出租
+                                        
+                                    </p>
+                                    
+                                    <p>可租面积：0㎡</p>
+                                    <p>
+                                        <span><em>￥</em>46.00</span><em class="font-gray"> 起&nbsp;&nbsp;</em>元/㎡·月
+                                    </p>
+                                </a>
+                            </li>
+                </ul>
+            </div>
+
+
+
+            <div class="search-result-adv" id="AdPosition">
+
+            </div>
+            <div class="search-result-adv" id="AdPositionBottom">
+
+            </div>
+        </div>
+            <div class="search-result-page">
+
+
+                <div class="clearfix search-result-page-box" data-xq="1">
+
+                    <div class="pagination-container"><ul class="pagination"><li class="disabled PagedList-skipToPrevious"><a rel="prev">上一页</a></li><li class="active"><a>1</a></li><li><a href="/shenzhen/ov1/page2">2</a></li><li><a href="/shenzhen/ov1/page3">3</a></li><li><a href="/shenzhen/ov1/page4">4</a></li><li><a href="/shenzhen/ov1/page5">5</a></li><li><a href="/shenzhen/ov1/page6">6</a></li><li class="PagedList-skipToNext"><a href="/shenzhen/ov1/page2" rel="next">下一页</a></li></ul></div>
+
+                </div>
+            </div>
+    </div>
+</div>
+
+            </div>
+
+<!--预定咨询 列表-->
+<div id="askordercart" class="booking-advice" ng-controller="Cart">
+    <div class="booking-advice-list" ng-class="cart.extended?'show':'hide'">
+        <h2>
+            <i class="fl">
+                预约看仓清单
+                <em ng-if="limit==null" class="font-red">您可选择多个仓库加入清单，进行预约看仓噢！{{limit}}</em>
+                <em ng-if="limit!=null" class="font-red">可最多选择{{limit.TotayRemainingCount}}个仓库加入清单进行看仓预约，已选择<b>{{cart.items.length}}</b>/{{limit.TotayRemainingCount}}个！</em>
+            </i><span class="hide-bal fr">隐藏</span>
+        </h2>
+        <ul>
+            <li ng-repeat="order in cart.items track by $index">
+                <span class="icon-bal-del" ng-click="del(order.id);"></span>
+                <dl>
+                    <dt><a href="{{order.detailUrl}}" target="_blank0" rel="nofollow"><img alt="{{order.name}}" ng-src="{{order.imgSrc}}" /></a></dt>
+                    <dd>
+                        <a href="{{order.detailUrl}}" target="_blank0" rel="nofollow"><span>{{order.name}}</span></a>
+                        <p>
+                            <b>￥{{order.price|number:2}}</b>起
+                        </p>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <p class="bal-tc" ng-class="cart.items.length>0||'hide'">
+                    <a href="#askorder" class="btn-ba Js_ydzx" rel="nofollow">预约看仓</a>
+                    <b class="btn-bal-clear" ng-click="clear();">清空全部</b>
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="/Scripts/jquery.cookie.js"></script>
+<script src="/Scripts/lib/angular.min.js"></script>
+<script src="/Scripts/jquery.fly.min.js"></script>
+<script src="/Scripts/AskOrderCart.js"></script></form>
+        
+
+<style>
+    /*.ui-datepicker-calendar {
+        display: none;
+    }*/
+
+    .val-available {
+        color: #1477C9;
+    }
+</style>
+<div id="askorder" class="mc-dialog-box" style="display: none;">
+    <div id="vue-form" class="mc-dialog">
+<form action="/bid/fastpub" class="Js_askForm" method="post">            <h2>
+                预约看仓<s class="js_ydzxclosebtn"></s>
+            </h2>
+            <div class="ask-detail notlogged">
+                <input data-val="true" data-val-requredwhennot="没有加入预约的仓库不能提交，请选择仓库加入预约看仓！" data-val-requredwhennot-otherproperty="ReqId" data-val-requredwhennot-othervalues="0," id="RptIds" name="RptIds" type="hidden" value="" />
+                <input data-val="true" data-val-number="字段 ReqId 必须是一个数字。" id="ReqId" name="ReqId" type="hidden" value="" />
+                <ul class="ask-input">
+                    <li class="ask-input-first ">
+                            <div class="notlogged-cue">
+                                注：若本次需求内容您已填写过，请<a href="https://passport.50yc.com/login" rel="nofollow" class="btn-login">立即登录</a>后操作，以免重复填写。
+                            </div>
+                    </li>
+                    <li class="ask-margin">
+                        <input data-val="true" data-val-number="字段 ServiceTypeId 必须是一个数字。" data-val-required="必填" id="ServiceTypeId" name="ServiceTypeId" type="hidden" value="" />
+                        <span><i>*</i>需求服务</span>
+                        <p>
+                                <i class="ask-radio"><input type="radio" name="servicetype" value="1" class="from-input" /><label>仓库租赁</label></i>
+                                <i class="ask-radio"><input type="radio" name="servicetype" value="3" class="from-input" /><label>厂房租赁</label></i>
+                                <i class="ask-radio"><input type="radio" name="servicetype" value="2" class="from-input" /><label>仓库代管</label></i>
+                                <i class="ask-radio"><input type="radio" name="servicetype" value="4" class="from-input" /><label>仓配一体</label></i>
+                        </p>
+                        <p><span class="field-validation-valid" data-valmsg-for="ServiceTypeId" data-valmsg-replace="true"></span></p>
+                    </li>
+
+                    <li>
+                        <span><i>*</i>需求区域</span>
+                        <p>
+                            <select class="short from-input" data-val="true" data-val-number="字段 ProvCode 必须是一个数字。" data-val-required="ProvCode 字段是必需的。" id="ProvCode" name="ProvCode"><option selected="selected" value="110000">北京</option>
+<option value="120000">天津</option>
+<option value="130000">河北</option>
+<option value="140000">山西</option>
+<option value="150000">内蒙古</option>
+<option value="210000">辽宁</option>
+<option value="220000">吉林</option>
+<option value="230000">黑龙江</option>
+<option value="310000">上海</option>
+<option value="320000">江苏</option>
+<option value="330000">浙江</option>
+<option value="340000">安徽</option>
+<option value="350000">福建</option>
+<option value="360000">江西</option>
+<option value="370000">山东</option>
+<option value="410000">河南</option>
+<option value="420000">湖北</option>
+<option value="430000">湖南</option>
+<option value="440000">广东</option>
+<option value="450000">广西</option>
+<option value="460000">海南</option>
+<option value="500000">重庆</option>
+<option value="510000">四川</option>
+<option value="520000">贵州</option>
+<option value="530000">云南</option>
+<option value="540000">西藏</option>
+<option value="610000">陕西</option>
+<option value="620000">甘肃</option>
+<option value="630000">青海</option>
+<option value="640000">宁夏</option>
+<option value="650000">新疆</option>
+<option value="710000">台湾</option>
+<option value="810000">香港</option>
+<option value="820000">澳门</option>
+</select><em>-</em>
+                            <select class="short from-input" data-val="true" data-val-number="字段 CityCode 必须是一个数字。" data-val-required="CityCode 字段是必需的。" id="CityCode" name="CityCode"><option value="110100">北京市</option>
+</select>
+                        </p>
+                    </li>
+
+                    <li>
+                        <span><i>*</i>货物类型</span>
+                        <input data-val="true" data-val-notequalvalue="必填" data-val-notequalvalue-othervalue="--请选择--" data-val-required="必填" id="GoodsTypes" name="GoodsTypes" type="hidden" value="" />
+                        <input data-val="true" data-val-length="货物详情最大500个字符" data-val-length-max="500" id="GoodsDetails" name="GoodsDetails" type="hidden" value="" />
+                        <p>
+
+                            <select class="short from-input" data-val="true" data-val-required="必填" id="GoodsCategorySelect" name="GoodsCategory"><option value="">--请选择--</option>
+<option selected="selected" value="消费品">消费品</option>
+<option value="工业品">工业品</option>
+</select>
+                            <em class="goodtypes-p p-rl" style="display:none">-</em>
+                                <select name="GoodsTypes" class="goodtypes from-input" id="type1" style="display:none">
+                                    <option>--请选择--</option>
+                                        <option value="101">大家电及配件</option>
+                                        <option value="102">小家电及配件</option>
+                                        <option value="103">3C产品</option>
+                                        <option value="104">家居及日用品</option>
+                                        <option value="105">服装鞋帽</option>
+                                        <option value="106">食品及保健品</option>
+                                        <option value="107">酒水饮料</option>
+                                        <option value="108">生鲜</option>
+                                        <option value="109">办公文体用品</option>
+                                        <option value="110">图书音像制品</option>
+                                        <option value="111">汽车及配件用品</option>
+                                        <option value="112">家具及建材</option>
+                                        <option value="113">五金配件</option>
+                                        <option value="114">珠宝及贵重商品</option>
+                                        <option value="115">药品及疫苗</option>
+                                        <option value="116">医疗器械</option>
+                                        <option value="117">其它</option>
+                                </select>
+                                <select name="GoodsTypes" class="goodtypes from-input" id="type2" style="display:none">
+                                    <option>--请选择--</option>
+                                        <option value="201">黑色金属</option>
+                                        <option value="202">有色金属</option>
+                                        <option value="203">贵金属</option>
+                                        <option value="204">矿产品</option>
+                                        <option value="205">化工原料及制品</option>
+                                        <option value="206">纺织原料及制品</option>
+                                        <option value="207">纸及其制品</option>
+                                        <option value="208">粮油及农副产品</option>
+                                        <option value="209">建材（原材料）</option>
+                                        <option value="210">电线电缆</option>
+                                        <option value="211">机电设备</option>
+                                        <option value="212">皮革（原材料）</option>
+                                        <option value="213">竹藤棕草（原材料）</option>
+                                        <option value="214">药材（原材料）</option>
+                                        <option value="215">车辆及零部件</option>
+                                        <option value="216">其它</option>
+                                </select>
+                        </p>
+
+                        <p><span class="field-validation-valid" data-valmsg-for="GoodsCategory" data-valmsg-replace="true"></span> <span class="field-validation-valid" data-valmsg-for="GoodsTypes" data-valmsg-replace="true"></span></p>
+                    </li>
+                    <li v-show="serviceType>0&&serviceType%2==0">
+                        <span>货物描述</span>
+                        <p>
+                            <input class="from-input" data-val="true" data-val-maxlength="货物描述最大100个字符" data-val-maxlength-max="100" id="GoodsRemark" name="GoodsRemark" type="text" value="" />
+                        </p>
+                        <p><span class="field-validation-valid" data-valmsg-for="GoodsRemark" data-valmsg-replace="true"></span></p>
+                    </li>
+                    <li class="li-half">
+                        <span><i>*</i>启动年月</span>
+
+                        <p><select class="from-input" data-val="true" data-val-required="必填" id="LeaseStart" name="LeaseStart"><option value="">--请选择--</option>
+<option value="2018-08">2018年08月</option>
+<option value="2018-09">2018年09月</option>
+<option value="2018-10">2018年10月</option>
+<option value="2018-11">2018年11月</option>
+<option value="2018-12">2018年12月</option>
+<option value="2019-01">2019年01月</option>
+<option value="2019-02">2019年02月</option>
+<option value="2019-03">2019年03月</option>
+<option value="2019-04">2019年04月</option>
+<option value="2019-05">2019年05月</option>
+<option value="2019-06">2019年06月</option>
+<option value="2019-07">2019年07月</option>
+<option value="2019-08">2019年08月</option>
+</select></p>
+                        <p><span class="field-validation-valid" data-valmsg-for="LeaseStart" data-valmsg-replace="true"></span></p>
+                    </li>
+                    <li v-show="serviceType>0&&serviceType%2>0" class="li-half">
+                        <span><i>*</i>预计租期</span>
+                        <p>
+
+                            <select class="from-input" data-val="true" data-val-required="必填" id="leaset" name="LeaseTerm"><option value="">--请选择--</option>
+<option value="一年以内">一年以内</option>
+<option value="一年到三年">一年到三年</option>
+<option value="三年以上">三年以上</option>
+</select>
+                        </p>
+                        <p><span class="field-validation-valid" data-valmsg-for="LeaseTerm" data-valmsg-replace="true"></span></p>
+                    </li>
+                    <li v-show="serviceType%2>0">
+                        <span><i>*</i>看仓时间</span>
+                        <div class="li-td">
+                            <p>
+                                <input class="middle" data-val="true" data-val-date="字段 AppointmentDateMin 必须是日期。" data-val-required="预约看仓开始时间必填" id="AppointmentDateMin" name="AppointmentDateMin" readonly="readonly" style="width: 150px;margin-right:0;" type="text" value="" /><em>-</em>
+                                <input class="middle" data-val="true" data-val-date="字段 AppointmentDateMax 必须是日期。" data-val-required="预约看仓结束时间必填" id="AppointmentDateMax" name="AppointmentDateMax" readonly="readonly" style="width: 150px;margin-right:0;" type="text" value="" />
+                            </p>
+                            <p>
+                                <span class="field-validation-valid" data-valmsg-for="AppointmentDateMin" data-valmsg-replace="true"></span>
+                                <em class="p-rl">&nbsp;&nbsp;&nbsp;&nbsp;</em>
+                                <span class="field-validation-valid" data-valmsg-for="AppointmentDateMax" data-valmsg-replace="true"></span>
+                            </p>
+                        </div>
+                    </li>
+                    <li v-show="serviceType>0&&serviceType%2==0" class="li-half">
+                        <span><i>*</i>业务模式</span>
+
+                        <p><select class="from-input" data-val="true" data-val-requredwhen="必填" data-val-requredwhen-otherproperty="ServiceTypeId" data-val-requredwhen-othervalues="2,4" id="BusinessMode" name="BusinessMode"><option value="">--请选择--</option>
+<option value="B2C">B2C</option>
+<option value="B2B">B2B</option>
+</select></p>
+                        <p><span class="field-validation-valid" data-valmsg-for="BusinessMode" data-valmsg-replace="true"></span></p>
+                    </li>
+                    <li v-show="serviceType>0&&serviceType%2==0" class="li-half">
+                        <span><i>*</i>月单量</span>
+                        <p><input class="short from-input" data-val="true" data-val-number="字段 月单量 必须是一个数字。" data-val-range="月单量1到999999" data-val-range-max="999999" data-val-range-min="1" data-val-requredwhen="必填" data-val-requredwhen-otherproperty="ServiceTypeId" data-val-requredwhen-othervalues="2,4" id="MonthOrders" name="MonthOrders" type="text" value="" /><em>单</em></p>
+                        <p><span class="field-validation-valid" data-valmsg-for="MonthOrders" data-valmsg-replace="true"></span></p>
+                    </li>
+                    <li v-show="serviceType>0&&serviceType%2==0" class="li-half">
+                        <span>客单价</span>
+                        <p><input class="short from-input" data-val="true" data-val-number="字段 客单价 必须是一个数字。" data-val-range="客单价1到99999999.99" data-val-range-max="99999999.99" data-val-range-min="1" id="CustomerPrice" name="CustomerPrice" onkeyup="value=value.replace(/(\.\d{2})\d+/,&#39;$1&#39;);" type="text" value="" /><em>元</em></p>
+                        <p><span class="field-validation-valid" data-valmsg-for="CustomerPrice" data-valmsg-replace="true"></span></p>
+                    </li>
+                    <li class="br-li"></li>
+                    <li class="li-half">
+                        <span><i>*</i>需求面积</span>
+                        <p>
+                            <input class="short from-input" data-val="true" data-val-number="字段 MinArea 必须是一个数字。" data-val-range="1到9,999,999" data-val-range-max="9999999" data-val-range-min="1" data-val-regex="必须正整数" data-val-regex-pattern="^\d+$" data-val-required="必填" id="MinArea" name="MinArea" placeholder="最小值" type="text" value="" />
+                            <em class="p-rl">-</em>
+                            <input class="short from-input" data-val="true" data-val-number="字段 MaxArea 必须是一个数字。" data-val-percentrangegreater="最大面积应为最小面积的1~1.5倍" data-val-percentrangegreater-otherproperty="MinArea" data-val-percentrangegreater-percent="1.5" data-val-range="1到9,999,999" data-val-range-max="9999999" data-val-range-min="1" data-val-regex="必须正整数" data-val-regex-pattern="^\d+$" data-val-required="必填" id="MaxArea" name="MaxArea" placeholder="最大值" type="text" value="" />
+                            <em>㎡</em>
+                        </p>
+                        <p><span class="field-validation-valid" data-valmsg-for="MinArea" data-valmsg-replace="true"></span> <span Id="MaxAreaError" class="field-validation-valid" data-valmsg-for="MaxArea" data-valmsg-replace="true"></span></p>
+                    </li>
+                    <li class="li-half">
+                        <span><i>*</i>公司名称</span>
+                        <p><input class="from-input" data-val="true" data-val-length="公司信息最大30个字符" data-val-length-max="30" data-val-required="必填" id="Commpany" name="Commpany" type="text" value="" /></p>
+                        <p><span class="field-validation-valid" data-valmsg-for="Commpany" data-valmsg-replace="true"></span></p>
+                    </li>
+                        <li class="li-half">
+                            <span><i>*</i>手机号</span>
+                            <p>
+                                <input data-val="true" data-val-regex="格式错误" data-val-regex-pattern="(\+\d{1,3}|\(\d{2}\))*1\d{10}" data-val-required="必填" id="txtQuickTelephone" name="ContactPhone" type="text" value="" />
+                            </p>
+                            <p><span class="field-validation-valid" data-valmsg-for="ContactPhone" data-valmsg-replace="true"></span></p>
+                        </li>
+                    <li class="li-half">
+                        <span><i>*</i>职位/部门</span>
+                        <p><input class="from-input" data-val="true" data-val-length="职务/部门最大20个字符" data-val-length-max="20" data-val-required="必填" id="Dept" name="Dept" type="text" value="" /></p>
+                        <p><span class="field-validation-valid" data-valmsg-for="Dept" data-valmsg-replace="true"></span></p>
+                    </li>
+                        <li class="li-half">
+                            <span><i>*</i>图形码</span>
+                            <p>
+                                <input class="txt-code" data-val="true" data-val-required="必填" id="validCode" name="ExCode" type="text" value="" />
+                                <img id="validCodeImg" src="/validcode/get?target=askorder_code" alt="验证码" onclick="changeValidCode('validCodeImg', 'askorder_code')" />
+                            </p>
+                            <p><span class="field-validation-valid" data-valmsg-for="ExCode" data-valmsg-replace="true"></span></p>
+                        </li>
+                    <li class="li-half">
+                        <span><i>*</i>联系人</span>
+                        <p><input class="from-input" data-val="true" data-val-length="联系人最大20个字符" data-val-length-max="20" data-val-required="必填" id="ContactMan" name="ContactMan" type="text" value="" /></p>
+                        <p><span class="field-validation-valid" data-valmsg-for="ContactMan" data-valmsg-replace="true"></span></p>
+                    </li>
+                        <li class="li-half">
+                            <span><i>*</i>验证码</span>
+                            <p>
+                                <input class="txt-code" data-val="true" data-val-regex="格式错误" data-val-regex-pattern="\d{6}" data-val-required="必填" id="SmsCode" name="SmsCode" type="text" value="" />
+                                <a class="btn-code" id="btnQuickSendSMS">获取短信验证码</a>
+                            </p>
+                            <p><span class="field-validation-valid" data-valmsg-for="SmsCode" data-valmsg-replace="true"></span></p>
+                        </li>
+                    <li class="li-half">
+                        <span><i>*</i>邮箱号</span>
+                        <p>
+                            <input class="from-input" data-val="true" data-val-length="邮箱地址最大100个字符" data-val-length-max="100" data-val-regex="格式错误" data-val-regex-pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9_-]+\.[A-Za-z]{2,4}" data-val-required="必填" id="Email" name="Email" type="text" value="" />
+                        </p>
+                        <p><span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span></p>
+                    </li>
+                    <li>
+                        <span><i></i>备注</span>
+                        <p>
+                            <textarea class="from-input" cols="20" data-val="true" data-val-length="500字内" data-val-length-max="500" id="Others" name="Others" rows="2">
+</textarea>
+                            <span class="field-validation-valid" data-valmsg-for="Others" data-valmsg-replace="true"></span>
+                        </p>
+                    </li>
+                </ul>
+                <div class="ask-flow af-h" v-if="serviceType%2==0">
+                    <dl class="font-blue">
+                        <dt><i class="icon-af1"></i></dt>
+                        <dd>
+                            <span>提交申请</span>
+                            <p>选择仓库填需求</p>
+                            <p>发起看仓预约</p>
+                        </dd>
+                    </dl>
+                    <dl class="af-d2">
+                        <dt><i class="icon-af2"></i></dt>
+                        <dd>
+                            <span>需求确认</span>
+                            <p>待云仓专员联系</p>
+                            <p>收定制方案和报价</p>
+                        </dd>
+                    </dl>
+                    <dl class="af-d3">
+                        <dt><i class="icon-af3"></i></dt>
+                        <dd>
+                            <span>签定合同</span>
+                            <p>确定方案和报价</p>
+                            <p>签署合同</p>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="ask-flow af-h" v-else>
+                    <dl class="font-blue">
+                        <dt><i class="icon-af1"></i></dt>
+                        <dd>
+                            <span>预约看仓</span>
+                            <p>选择仓库填写需求</p>
+                            <p>发起看仓预约</p>
+                        </dd>
+                    </dl>
+                    <dl class="af-d2">
+                        <dt><i class="icon-af2"></i></dt>
+                        <dd>
+                            <span>库方确认</span>
+                            <p>库方评估看仓申请</p>
+                            <p>接受看仓预约</p>
+                        </dd>
+                    </dl>
+                    <dl class="af-d3">
+                        <dt><i class="icon-af3"></i></dt>
+                        <dd>
+                            <span>预约成功</span>
+                            <p>查看库方信息</p>
+                            <p>自主联系库方看仓</p>
+                        </dd>
+                    </dl>
+                </div>
+                <dl class="intention">
+                    <dt>意向仓</dt>
+                    <dd id="select-rpts">
+                    </dd>
+                    <dd style="color:#f00 !important;">
+                        <span class="field-validation-valid" data-valmsg-for="RptIds" data-valmsg-replace="true"></span>
+                    </dd>
+                </dl>
+
+                <div class="submit">
+                    <p style="color:red;" id="showGlobalErrMsg"></p>
+                    <p>
+                        <input type="checkbox" id="agree" checked>
+                        <label>
+                            我同意物联云仓帮我找仓。                                <span>
+                                    如果此手机号尚未在本平台注册，当您点击“马上预约”按钮，会默认您同意
+                                    <a target="_banlk0" href="/help/8">《物联云仓网站会员服务协议》</a>
+                                    并同意用此手机号免费注册成为本平台会员。
+                                </span>
+                        </label>
+                    </p>
+                    <input type="button" class="btn-submit Js_ydzxSubmitBtn" value="马上预约">
+                </div>
+            </div>
+</form>    </div>
+</div>
+
+<script src="/Scripts/vue.min.js"></script>
+<script src="/Scripts/validateExends.js?v=201805"></script>
+<script>
+    var gts={"消费品":1,"工业品":2}
+    var DistrictUrl = '/wapi/District/';
+    window.appConfig = { smsInterval: 60 };
+    window.validCodeType = 'askorder_code';
+    function changeValidCode(a, b) {
+        $('#' + a).attr('src', getFullUrl('validCode/get?target=' + b + '&r=' + Math.random()));
+    }
+    var askOrder=new Vue({
+        el:"#vue-form",
+        data:{serviceType:''||'-1'},
+        mounted:function(){
+            $("head").append('<script src="/Scripts/login.js"/>');
+        }
+    });
+    $(function () {
+        //$('#AppointmentDateMin').datepicker({
+        //    dateFormat: 'yy-mm-dd',
+        //    maxDate: '+90d',
+        //    minDate: new Date(),
+        //    onSelect: function () {
+        //        $('#AppointmentDateMin').valid();
+        //    }
+        //});
+        //$('#AppointmentDateMax').datepicker({
+        //    dateFormat: 'yy-mm-dd',
+        //    maxDate: '+90d',
+        //    minDate: new Date(),
+        //    onSelect: function () {
+        //        $('#AppointmentDateMax').valid();
+        //    }
+        //});
+
+
+        var min = new Date('2018/8/25 0:00:00');
+        var max = new Date('2018/9/23 0:00:00');
+        $('#AppointmentDateMin').datepicker({
+            defaultDate: '',
+            dateFormat: 'yy-mm-dd',
+            minDate: min,
+            maxDate: max,
+            onSelect: function () {
+                var min = new Date($("#AppointmentDateMin").val());
+                var max = new Date($("#AppointmentDateMin").val());
+                max.setDate(max.getDate() + 14);
+                var end = $("#AppointmentDateMax");
+                end.datepicker('option', 'minDate', min);
+                end.datepicker('option', 'maxDate', max);
+                end.datepicker("setDate", max);
+            }
+        });
+        var endMax = new Date('2018/9/8 0:00:00');
+        $('#AppointmentDateMax').datepicker({
+            defaultDate: '',
+            dateFormat: 'yy-mm-dd',
+            minDate: min,
+            maxDate: endMax
+        });
+        $('#AppointmentDateMin').datepicker("setDate", min);
+        $('#AppointmentDateMax').datepicker("setDate", endMax);
+
+
+
+        $("#ProvCode").change(function () {
+            loadCities($(this).val());
+        });
+        $("#CityCode").change(function () {
+            loadAreas($(this).val());
+        });
+        $("#AreaCode1").change();
+
+        $('#LeaseStart').datepicker({
+            changeMonth: true,
+            changeYear: true,
+            showButtonPanel: true,
+            dateFormat: 'yy年mm月',
+            minDate: new Date('2018/8/24 0:00:00'),
+            onClose: function(dateText, inst) {
+                $(this).datepicker('setDate', new Date(inst.selectedYear, inst.selectedMonth, 1));
+            }
+        });
+        $("#MinArea,#MaxArea").blur(function () {
+            validArea();
+        });
+        $("#MinArea,#MaxArea").keyup(function () {
+            validArea();
+        });
+        $("input[name='servicetype']").click(function () {
+            var min = new Date('2018/8/25 0:00:00');
+            var max = new Date('2018/9/23 0:00:00');
+
+            $('#AppointmentDateMin').datepicker("setDate", min);
+            $('#AppointmentDateMax').datepicker("setDate", endMax);
+
+            $("#ServiceTypeId").val($(this).val());
+            $("#ServiceTypeId").valid();
+            askOrder.$data.serviceType=$(this).val();
+        })
+        $("#GoodsCategorySelect").change(function () {
+            var val= $(this).val();
+            $(".goodtypes,.goodtypes-p").css("display","none");
+            $("#type" + gts[$(this).val()]).css("display", "");
+            if(val!='')  $(".goodtypes-p").css("display","");
+            setgoods();
+        });
+        $("#leaset").change(function(){
+            $("#LeaseTerm").val($(this).val());
+        });
+        $("#selectreq").change(function () {
+            $("#ReqId").val( $("#selectreq").val());
+            var $this=$("#selectreq option:selected" );
+            var disabled = false;
+
+
+        var min = new Date('2018/8/25 0:00:00');
+        var max = new Date('2018/9/23 0:00:00');
+
+        $('#AppointmentDateMin').datepicker("setDate", min);
+        $('#AppointmentDateMax').datepicker("setDate", endMax);
+
+            if(parseInt($this.val())!=0)
+            {
+                disabled=true;
+                $(".from-input").addClass("disabled");
+
+                $("#ProvCode").val($this.attr("data-ProvCode"));
+                loadCities($this.attr("data-ProvCode"), $this.attr("data-CityCode"), null, function () {
+                    //$("#ProvCode").val($this.attr("data-ProvCode"));
+                    $("#CityCode").val($this.attr("data-CityCode"));
+                })
+
+                $("#MinArea").val($this.attr("data-MinArea"));
+                $("#MaxArea").val($this.attr("data-MaxArea"));
+                $("#Email").val($this.attr("data-Email"));
+                $("#Commpany").val($this.attr("data-Commpany"));
+                $("#Dept").val($this.attr("data-Dept"));
+                $("#leaset").val($this.attr("data-LeaseTerm"));
+                var c=$this.attr("data-GoodsCategory");
+                $("#GoodsCategorySelect").val(c);
+                $("#BusinessMode").val($this.attr("data-BusinessMode"));
+                $(".goodtypes").val($this.attr("data-GoodsTypeCodeFirst"));
+                $("#GoodsCategorySelect").change();
+
+                $("#ContactMan").val($this.attr("data-ContactMan"));
+                var stid=$this.attr("data-ServiceTypeId");
+                askOrder.$data.serviceType=stid;
+                $("#CustomerPrice").val($this.attr("data-CustomerPrice"));
+                $("#GoodsRemark").val($this.attr("data-GoodsRemark"));
+                $("#MonthOrders").val($this.attr("data-MonthOrders"));
+                var m=$this.attr("data-LeaseStartMonth");
+                m = m.length==1?"0"+m:m;
+                var ym=$this.attr("data-LeaseStartYear")+"-"+m;
+                if( $("#LeaseStart").find("option[value='"+ym+"']").length==0)
+                    $("#LeaseStart").append('<option value="'+ym+'">'+$this.attr("data-LeaseStartYear")+"年"+m+'月</option>')
+                $("#LeaseStart").val(ym);
+                $("input[name='servicetype'][value='"+stid+"']").prop("checked",true);
+                $("#ServiceTypeId").val($this.attr("data-ServiceTypeId"));
+                $('.Js_askForm').valid();
+                $("#ServiceTypeId").valid();
+                $("#RptIds").valid();
+            }
+            else {
+                //新需求 货物类型，大类默认消费品，小类默认请选择。
+                $("#GoodsCategorySelect").val("消费品");
+                $("#type1").css("display", "");
+                $("#type1").find("option").removeAttr("selected");
+                $("#type1").val("--请选择--");
+                $("#type2").css("display", "none");
+                $("#type2").find("option").removeAttr("selected");
+
+                askOrder.serviceType = -1;
+
+                $('.Js_askForm')[0].reset();
+                $("#ProvCode").val(initLocation.provCode);
+                loadCities(initLocation.provCode, initLocation.cityCode);
+
+
+                $("#ServiceTypeId").val("");
+                $(".from-input").removeClass("disabled");
+                //$(".goodtypes,.goodtypes-p").css("display","none");
+            }
+            $(".from-input").prop("disabled",disabled);
+        });
+        $(".goodtypes").change(function(){ setgoods();});
+    });
+    function validArea() {
+        var min = $("#MinArea").val();
+        var max = $("#MaxArea").val();
+        var error =$("#MaxAreaError");
+        if(min&&max)
+        {
+            if (parseInt(min) > parseInt(max)) {
+                error.html('<span for="MaxArea" class="">最大面积>=最小面积</span>');
+                error.addClass('field-validation-error').removeClass('field-validation-valid');
+                return ;
+            }
+            if (parseInt(min) * 1.5 < parseInt(max)) {
+                error.html('<span for="MaxArea" class="">最大面积<=最小面积*150%</span>');
+                error.addClass('field-validation-error').removeClass('field-validation-valid');
+                return ;
+            }
+        }
+        error.html('');
+        error.removeClass('field-validation-error').addClass('field-validation-valid');
+    }
+    // 加载城市列表
+    function loadCities(pid, selectCity, selectArea, cb) {
+        var maskObj = $.dialog({
+            lock: true, zIndex: 9000,
+            content: '<div id="mask-div"><div style="text-align: center;"><img src="/img/loading_mask.gif" /></div><div>加载中，请稍后…</div></div>'
+            , border: 0, button: null
+        });
+        $.get(DistrictUrl + '?id=' + pid, function (res) {
+            if (res.data.id == $("#ProvCode").val()) {
+                $("#CityCode").find("option").remove();
+                $("#AreaCode1").find("option[value!='']").remove();
+                $("#AreaCode2").find("option[value!='']").remove();
+                $(res.data.children).each(function () {
+                    $("#CityCode").append('<option value="' + this.id + '">' + this.name + '</option>');
+                });
+                if (selectCity) {
+                    $("#CityCode").val(selectCity);
+                    loadAreas(selectCity, selectArea);
+                }
+                else
+                    if (res.data.children[0].id > 0) {
+                        loadAreas(res.data.children[0].id, selectArea);
+                    }
+            }
+            maskObj && maskObj.close();
+            if (typeof (cb) == "function") { cb(); }
+        }, "jsonp");
+    }
+    // 加载区域列表
+    function loadAreas(cid,select) {
+        $.get(DistrictUrl + '?id=' + cid, function (res) {
+            $("#AreaCode1").find("option[value!='']").remove();
+            $(res.data.children).each(function () {
+                $("#AreaCode1").append('<option value="' + this.id + '">' + this.name + '</option>');
+            });
+            $("#AreaCode2").find("option[value!='']").remove();
+            $(res.data.children).each(function () {
+                $("#AreaCode2").append('<option value="' + this.id + '">' + this.name + '</option>');
+            });
+            if (select) {
+                $("#AreaCode1").val(select);
+                $("#AreaCode1").change();
+            }
+        }, "jsonp");
+    }
+    function setgoods()
+    {
+        var gt=$("#GoodsCategorySelect");
+        var t=gts[gt.val()];
+        $("#GoodsTypes").val($("#type" + t).val());
+        $("#GoodsDetails").val($("#type" +t).find("option:selected").text());
+    }
+    function loadReq(loadDeafultReq)
+    {
+        var isAuth=0;
+        if(isAuth===1)
+        {
+            $.post("/bid/existed").success(function (data) {
+                if(data.code==200)
+                {
+                    var reqs=data.result;
+                    if(reqs&&reqs.length>0)
+                    {
+                        $("#selectreq option[value!='0']").remove()
+                        var html='';
+                        $.each(reqs,function(i,v){
+                            html += '<option data-CityCode="' + v.CityCode+'"  data-ProvCode="' + v.ProvCode + '" data-LeaseStartYear="'+v.LeaseStartYear+'"  data-LeaseStartMonth="'+v.LeaseStartMonth+'"  data-LeaseTerm="'+v.LeaseTerm+'"  data-MinArea="'+v.MinArea+'" data-MaxArea="'+v.MaxArea+'" data-ReqName="'+v.ReqName+'" data-Dept="'+v.Dept+'" data-Commpany="'+v.Commpany+'" data-ServiceTypeId="'+v.ServiceTypeId+'" data-Email="'+v.Email+'" data-ContactMan="'+v.ContactMan+'" data-GoodsCategory="'+v.GoodsCategory+'"  data-GoodsTypeCodeFirst="'+v.GoodsTypeCodeFirst+'"  data-BusinessMode="'+(v.BusinessMode||"")+'"  data-CustomerPrice="'+(v.CustomerPrice||"")+'"  data-GoodsRemark="'+v.GoodsRemark+'"  data-MonthOrders="'+(v.MonthOrders||"")+'" value="'+v.ReqId+'">【'+v.ServiceName+'需求】'+v.ReqName+'</option>';
+                        });
+                        $("#selectreq").append(html);
+                        if(loadDeafultReq==1)
+                        {  if($("#selectreq option").length>0){
+                            $("#selectreq").get(0).selectedIndex=1;
+                            $("#selectreq").change();
+                        }
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    function formatDate(date) {
+        return date.replace("年", "-").replace("月", "-").replace("日", "");
+    }
+</script>
+
+
+    </div>
+</div>
+<script src="/Scripts/ccchat.js"></script>
+<div class="footer">
+    <div class="footer-bg d_bg ">
+
+        <div class="footer-l-r">
+            <div class="footer-l clearfix">
+                <dl>
+                    <dt>平台服务</dt>
+                <dd><a href="https://www.50yc.com/warehouse" target="ps1" rel="nofollow">仓库租赁</a></dd>
+                <dd><a href="https://www.50yc.com/waas/list" target="ps32" rel="nofollow">仓配一体</a></dd>
+                <dd><a href="https://mall.50yc.com/" target="ps4" rel="nofollow">物资商城</a></dd>
+                <dd><a href="https://www.50yc.com/bid/list" target="ps2" rel="nofollow">仓储需求</a></dd>
+                <dd><a href="http://www.50.link/" target="ps5" rel="nofollow">技术服务</a></dd>
+
+                </dl>
+                <dl>
+                    <dt>招商合作</dt>
+                <dd><a href="https://www.50yc.com/cooperation/page1" target="js7" rel="nofollow">合作加盟</a></dd>
+                <dd><a href="https://www.50yc.com/advert/page1" target="js8" rel="nofollow">广告招商</a></dd>
+                <dd><a href="https://mall.50yc.com/form/providerapply" target="js33" rel="nofollow">商城入驻</a></dd>
+                <dd><a href="https://www.50yc.com/promotion/201512/partner" target="js9" rel="nofollow">渠道加盟</a></dd>
+
+                </dl>
+                <dl>
+                    <dt>帮助中心</dt>
+                <dd><a href="https://www.50yc.com/help/1" target="js3" rel="nofollow">会员注册</a></dd>
+                <dd><a href="https://www.50yc.com/help/13" target="js17" rel="nofollow">实名会员</a></dd>
+                <dd><a href="https://www.50yc.com/help/16" target="js18" rel="nofollow">发布仓库</a></dd>
+                <dd><a href="https://www.50yc.com/help/20" target="js19" rel="nofollow">发布需求</a></dd>
+                <dd><a href="https://www.50yc.com/help/18" target="js20" rel="nofollow">仓库认证</a></dd>
+                <dd><a href="https://www.50yc.com/help/24" target="js21" rel="nofollow">仓库报价</a></dd>
+                <dd><a href="https://www.50yc.com/help/15" target="js22" rel="nofollow">忘记密码</a></dd>
+                <dd><a href="https://www.50yc.com/help/1" target="js38" rel="nofollow">更多帮助</a></dd>
+
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                <dd><a href="https://www.50yc.com/help/6" target="js10" rel="nofollow">物联云仓</a></dd>
+                <dd><a href="https://www.50yc.com/help/7" target="js11" rel="nofollow">法律声明</a></dd>
+                <dd><a href="https://www.50yc.com/help/8" target="js12" rel="nofollow">服务条款</a></dd>
+                <dd><a href="https://www.50yc.com/help/9" target="js13" rel="nofollow">合作协议</a></dd>
+                <dd><a href="https://www.50yc.com/help/10" target="js14" rel="nofollow">意见投诉</a></dd>
+                <dd><a href="http://www.50yc.com/help/11" target="js15" rel="nofollow">诚聘英才</a></dd>
+                <dd><a href="http://www.50yc.com/help/12" target="js16" rel="nofollow">联系我们</a></dd>
+                <dd><a href="https://www.50yc.com/help/36" target="js37" rel="nofollow">隐私协议</a></dd>
+
+                </dl>
+            </div>
+            <div class="footer-r">
+                <div style="width: 190.5px;">
+                    <p class="contact-time">
+                        <b>咨询时间：9:00 - 17:30</b>
+                    </p>
+                    <p class="contact-phone">
+                        <s></s><i>4008-567-150</i>
+                    </p>
+                    <p class="contact-phone">
+                        <s class="tel"></s><i>0825-2245656</i>
+                    </p>
+                    <p class="contact-qq clearfix">
+                        <a onclick="CcChat.open()" target="_blank"></a>
+                    </p>
+                    <p class="zcx">
+                        <a href="http://www.cawd.org.cn/" target="_blank19" rel="nofollow"><img alt="中仓协合作伙伴" border="0" dragover="true" src="/img/%e4%b8%ad%e4%bb%93%e5%8d%8f%e5%90%88%e4%bd%9c%e4%bc%99%e4%bc%b4logo.png"></a>
+                    </p>
+                </div>
+                
+                <div class="fr">
+                    <p>
+                        <b>物联云仓官方微信</b>
+                    </p>
+                    <img src="/img/qr_142.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="link-list-area" style="font-size: 14px;">
+        <a href="http://www.scwlyd.com" rel="nofollow" target="_blank23">物联亿达</a> |
+        <a href="http://www.56dao.com/" rel="nofollow" target="_blank24">物道网</a> |
+        <a href="http://www.cloud56.net/" rel="nofollow" target="_blank25">物合网</a> |
+        <a href="http://www.54315.com/" rel="nofollow" target="_blank26">珍药材</a> |
+        <a href="http://www.chinawuliu.com.cn" rel="nofollow" target="_blank26">中国物流与采购联合会</a> |
+        <a href="http://www.cawd.org.cn/" rel="nofollow" target="_blank27">中国仓储与配送协会</a> |
+        <a href="http://www.cctanet.org.cn/" target="_blank22">中国交通运输协会</a>
+    </div>
+<div class="center link" style="width:1180px;font-size: 14px;">
+    <div class="link-item">
+
+        <span class="bq" style="margin-top:5px;">版权所有 © 四川物联亿达科技有限公司 2015-2020 保留一切权利</span>
+        <span class="bq" style="margin-top:5px;">增值电信业务经营许可证：川B2-20180158 | 国家工信部备案号: 蜀ICP备12009201号-11 | <a rel="nofollow" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51090302000118" style=""><img src="/img/%e5%a4%87%e6%a1%88%e5%9b%be%e6%a0%87.png" style="vertical-align:text-bottom" /><p style="display:inline;margin: 0px 0px 0px 5px;color:#888;">川公网安备 51090302000118号</p></a></span>
+        <span class="bq">
+            本网站支持IE9以上浏览器，推荐您使用Google Chrome（<a href="https://www.google.cn/chrome/" target="_blank" rel="nofollow">下载链接</a>）或IE11（<a href="http://windows.microsoft.com/zh-cn/internet-explorer/ie-11-worldwide-languages/" target="_blank" rel="nofollow">下载链接</a>）进行浏览
+        </span> 
+        <br />
+        <p>
+            <a href="http://www.12377.cn" target="_blank17" rel="nofollow"><img width="120" alt="中国互联网违法和不良信息举报中心" border="0" dragover="true" src="/img/zgjb.jpg"></a>
+            <a href="http://www.scjb.gov.cn" target="_blank18" rel="nofollow"><img width="120" alt="四川省互联网不良与违法信息举报中心" border="0" dragover="true" src="/img/scjb.jpg"></a>
+        </p>
+        <span style="display: none;">
+<script src="/Scripts/mastertool.js"></script>
+<script type="text/javascript" src="//s.union.360.cn/46053.js" async defer></script>
+    <script src="https://dca.50yc.com/statistic/s.js?sid=100&uid=" async></script>
+</span>
+    </div>
+</div>
+        
+    <script src="/Scripts/askOrder.js?v=636652803500000000"></script>
+
+    <script src="/Scripts/base.js?v=636644024420000000"></script>
+<script src="/Scripts/askOrder.js?v=636652803500000000"></script>
+<script src="/Scripts/searchRpt.js?v=636657099660000000"></script>
+
+    <script>
+        $(function () {
+            LoadPartialView();
+            $(function () {
+                filter();
+                handlePopstate();
+                order();
+                ydzx();
+                smssendconfig(60);
+                district();
+                pager();
+                result();
+                checkMoreBtnVisible();
+                UpdateOrderState();
+                AskOrderCart.changed=function() {
+                    UpdateOrderState();
+                }
+                initAreaSuggestBox();
+
+
+            });
+        });
+        function FollowRpt(rptId) {
+            var type = $("#flowBtn_"+rptId).hasClass('active') ? "2" : "1";
+            var url;
+            if(type=="1")
+            {
+                url="/warehouse/insertfollow";
+            }
+            if(type=="2")
+            {
+                url="/warehouse/deletefollow";
+            }
+            $.ajax({
+                url:url,
+                data:{rptId:rptId},
+                type:"post",
+                success:function(result)
+                {
+                    if(result.isSuccess)
+                    {
+                        var html="";
+                        if(type=="1") {
+                            $("#flowBtn_" + rptId).addClass('active');
+                        }
+                        if(type=="2")
+                        {
+                            $("#flowBtn_" + rptId).removeClass('active');
+                        }
+                        //$.dialog({ lock:true,content:"操作成功", ok: function () { return true; }, icon: 'succeed' });
+
+                    }
+                    else
+                    {
+                        if(result.error=="未找到用户信息")
+                        {
+                            $.dialog({lock:true, content:"您还未登录，是否需要现在登录？", ok: function () { window.location.href='https://passport.50yc.com/login'+"?redirectUrl="+window.location.href; },cancel:function(){return true;}, icon: 'error' });
+                        }
+
+                    }
+                }
+            });
+        }
+        function LoadPartialView()
+        {
+            var partViewList= [{"PanelId":2,"PanelCode":"PartialAd","PanelName":"广告位置","PositionCode":"AdPosition","RequestArg":"adPositionId=14","SortNum":1},{"PanelId":2,"PanelCode":"PartialAd","PanelName":"仓库列表右侧竖幅（下）","PositionCode":"AdPositionBottom","RequestArg":"adPositionId=23","SortNum":2}];
+            if(partViewList!=null&&partViewList.length>0)
+            {
+                $.each(partViewList,function(i){
+                    if(partViewList[i].PositionCode)
+                    {
+                        $.ajax({
+                            url:"/template/partialview",
+                            data:{tempFile:partViewList[i]},
+                            type:"post",
+                            success:function(result) {
+                                var el = $("#" + partViewList[i].PositionCode);
+                                el.empty().append(result);
+                            }
+                        });
+                    }
+                });
+            }
+        }
+    </script>
+
+    </div>
+
+<link href="/Scripts/artDialog/skins/default.css" rel="stylesheet" />
+<script src="/Scripts/artDialog/jquery.artDialog.js"></script>
+<script src="/Scripts/ccchat.js"></script>
+<script>
+    function publish() {
+        var memberType = 0;
+        if ('False'.toLowerCase() === 'true' && memberType === 1) {
+            $.dialog({
+                lock: true,
+                content: '需实名认证后才能发布仓库！',
+                ok: function () { window.location.href = '//www.50yc.com/member/auth'; return true; },
+                okVal: '去实名认证',
+                icon: 'question'
+            });          
+        }else window.location.href='//www.50yc.com/partner/publishrepository';
+    }
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 0) {
+            $('.help').find('.top').removeClass('hide');
+        } else {
+            $('.help').find('.top').addClass('hide');
+        }
+    });
+</script>
+<div class="help">
+    
+    <a class="publish-requirement">
+        <i class="icon"><s></s><em>发布需求</em></i>
+    </a>
+    <a class="publish-warehouse" onclick="publish();">
+        <i class="icon"><s></s><em>发布仓库</em></i>
+        
+    </a>
+    <a class="qr">
+        <i class="icon"><s></s><em>关注微信</em></i>
+        <div class="tip"><div class="img1"></div><p>关注微信，掌上配仓</p></div>
+    </a>
+    
+    <a class="icon-booking-advice Js-booking-advice">
+        <i class="icon">看仓清单</i>
+    </a>
+    <a class="top hide" href="#">
+        <i class="icon"><s></s><em>置顶</em></i>
+        
+    </a>
+
+    <a class="qq" onclick="CcChat.open()" target="_blank">
+        <i class="icon"><s></s><em>联系客服</em></i>
+        
+    </a>
+    
+
+<link href="/Content/fancybox/jquery.fancybox.css" rel="stylesheet" />
+<style type="text/css">
+
+/*弹出框*/
+.mc-dialog-box{background-color: #898989; overflow: hidden; padding:5px;}
+.mc-dialog{background-color: #fff;}
+.mc-dialog h2{width:100%;box-sizing:border-box;color: #333; font-size: 14px; height: 32px; line-height: 32px; background-color: #c5c5c5; position: relative; text-indent: 12px; cursor: pointer;border:0 none;}
+/*.mc-dialog h2 s{width: 14px; height: 14px; background: url(../img/mask-close.png) no-repeat; top: 8px; right: 12px; position: absolute;}
+.mc-dialog h2 s:hover{background: url(../img/关闭.png) no-repeat;}*/
+    
+/*发布需求类型选择弹框*/
+.tender-pub-box{width: 800px;}
+.tender-pub-box .mc-dialog{width:auto;}
+.dialog-pub{padding:30px 0 15px;}
+
+.tender-pub-type{overflow: hidden;}
+.tender-pub-type h4{font-size:14px;font-weight:normal;color:#666;border-bottom:1px solid #ccc;padding:0 0 10px 15px;margin-bottom:35px;overflow:hidden;}
+.tender-pub-type ul{overflow: hidden;margin: 14px 45px 0;}
+.tender-pub-type li{float: left;text-align: center;width:210px;margin-right:20px;margin-bottom:50px;}
+/*.tender-pub-type li:first-child{margin-left:105px;}*/
+.tender-pub-type li a{color:#333;}
+.tender-pub-type li s{display: block;width: 82px;height: 82px;margin: 0 auto;}
+.tender-pub-type li b{display: block;font-size: 16px;line-height: 36px;}
+.tender-pub-type li span{color:#666;}
+.tender-pub-type .type1{background-position: 0 -146px;}
+.tender-pub-type .type2{background-position: -82px -146px;}
+.tender-pub-type .type3{background-position: -246px -146px;}
+.tender-pub-type .type4{background-position: -164px -146px;}
+.tender-pub-type .type5{background-position: 0 -310px;}
+.tender-pub-type .type6{background-position: 0 -392px;}
+.tender-pub-type a:hover {text-decoration:underline;}
+.tender-pub-type a:hover .type1{background-position: 0 -228px;}
+.tender-pub-type a:hover .type2{background-position: -82px -228px;}
+.tender-pub-type a:hover .type3{background-position: -246px -228px;}
+.tender-pub-type a:hover .type4{background-position: -164px -228px;}
+.tender-pub-type a:hover .type5{background-position: -82px -310px;}
+.tender-pub-type a:hover .type6{background-position: -82px -392px;}
+</style>
+<script src="/Scripts/fancybox/jquery.mousewheel.pack.js"></script>
+<script src="/Scripts/fancybox/jquery.fancybox.pack.js"></script>
+<!--请选择配送范围-->
+<div class="mc-dialog-box tender-pub-box" id="drsts" style="display:none;">
+    <div class="mc-dialog">
+        <h2>请选择发布需求类型<s onclick="$.fancybox.close();"></s></h2>
+        <div class="tender-pub-type dialog-pub">
+            <ul>
+                        <li>
+                            <a href="/member/req/publish/1">
+                                <s class="icon-new type1"></s>
+                                <b>仓库租赁</b>
+                                <span>仓储服务，单纯的租仓库</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/member/req/publish/3">
+                                <s class="icon-new type2"></s>
+                                <b>厂房租赁</b>
+                                <span>生产型厂房租赁</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/member/req/publish/2">
+                                <s class="icon-new type3"></s>
+                                <b>仓库代管</b>
+                                <span>需要仓储、仓管服务，不含配送</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/member/req/publish/4">
+                                <s class="icon-new type4"></s>
+                                <b>仓配一体</b>
+                                <span>需要仓储、仓管和仓配服务</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/member/req/publish/5">
+                                <s class="icon-new type5"></s>
+                                <b>运配服务</b>
+                                <span>以仓为发货地的三方运配服务</span>
+                            </a>
+                        </li>
+
+                <li>
+                    <a href="https://mall.50yc.com/requirement/create">
+                        <s class="icon-new type6"></s>
+                        <b>用品耗材</b>
+                        <span>需要采购仓储配送相关的用品耗材</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $(".help .publish-requirement").click(function () {
+            $.fancybox(this, {
+                margin: 0,
+                padding: 0,
+                closeBtn: false,
+                href:"#drsts"
+            });
+        });
+    </script>
+</div></body>
+</html>
